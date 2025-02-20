@@ -1,10 +1,10 @@
 # Edu4Med
 
-`CURSO`
+`CURSO`: Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA`: Eixo 5 - Projeto Desenvolvimento de um Sistema Sociotécnico Inovador 
 
-`SEMESTRE`
+`SEMESTRE`: 5º Semestre
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
