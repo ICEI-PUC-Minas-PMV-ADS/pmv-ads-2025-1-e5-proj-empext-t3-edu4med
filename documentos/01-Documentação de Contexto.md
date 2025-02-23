@@ -11,30 +11,37 @@ A proposta da EDU4MED visa criar um sistema eficiente, no qual os usuários poss
 Portanto, a relação entre a Extensão Universitária e a plataforma EDU4MED demonstra como a tecnologia pode ser um meio estratégico para fortalecer a interação entre academia e sociedade. Ao possibilitar que os alunos desenvolvam soluções inovadoras e adquiram experiência prática, a Extensão Universitária reafirma seu papel essencial na formação de profissionais qualificados e preparados para transformar desafios em oportunidades concretas. A EDU4MED exemplifica essa abordagem ao propor um sistema que não apenas otimiza a busca por oportunidades na área médica, mas também contribui para a capacitação e inserção profissional dos estudantes e profissionais da saúde.
 
 
-## Problema
-Nesse momento o grupo deve apresentar a situação-problema (dor/oportunidade) do parceiro onde será desenvolvido sistema sociotécnico.
+# Problema
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O Brasil enfrenta um agravamento na falta de vagas para Residência Médica, conforme revela um estudo da Faculdade de Medicina da Universidade de São Paulo (FMUSP), apesar do aumento significativo no número de cursos de medicina, que gerou uma alta de 71% no número de graduados, as vagas para Residência Médica não cresceram na mesma proporção, aumentando apenas 26%. Atualmente, existem mais de 210 mil médicos generalistas que não concluíram a residência nem obtiveram títulos de especialidade reconhecidos (FACULDADE DE MEDICIDA DA USP, 2024).
 
-## Objetivos
 
-Aqui o grupo deve descrever os objetivos do trabalho indicando que o objetivo é aplicar os conceitos de extensão universitária no desenvolvimento de um sistema sociotécnico que impacte positivamente a comunidade.
+# Objetivos
 
-## Justificativa
+O objetivo deste projeto é criar uma plataforma automatizada que organize e liste oportunidades para estudantes de Medicina, disponibilizando editais relevantes de maneira acessível. Dessa forma, buscamos democratizar o acesso às vagas, beneficiando estudantes que não têm acesso às informações necessárias. Consequentemente, isso ajudará a preencher as vagas na área da Medicina em estados e cidades brasileiras que enfrentam uma grande carência de profissionais qualificados que desejam iniciar sua jornada profissional.
 
-Descreva as dores/dificuldades do parceiro que motivam trabalhar na construção da solução.
+# Justificativa
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
-## Relação com a Extensão Universitária
 
-Relacionar a situação-problema da organização com o impacto social esperado com a implantação do sistema sociotécnico.
-Apresentar aqui como este projeto extensionista transforma a realidade do parceiro e dos alunos.
+# Relação com a Extensão Universitária
 
-## Descrição do Parceiro
+A Extensão Universitária, conforme desenvolvida pela PUC Minas, tem um papel essencial na formação dos alunos, proporcionando-lhes a oportunidade de aplicar os conhecimentos adquiridos em sala de aula na prática. Essa iniciativa busca conectar os discentes à sociedade, permitindo que eles compreendam melhor os desafios reais do mercado de trabalho e desenvolvam soluções inovadoras para problemas concretos.
 
-Apresente uma descrição resumida sobre a organização onde o projeto será desenvolvido para que possa ser compreendido o cenário do sistema sociotécnico.
+Nesse contexto, a plataforma EDU4MED se alinha perfeitamente aos princípios da Extensão Universitária, pois seu objetivo é utilizar tecnologia para facilitar o acesso a oportunidades na área médica. O desenvolvimento do sistema, que utiliza Web Scraping para coletar e organizar informações sobre editais, concursos e estágios, representa uma aplicação direta do conhecimento acadêmico à resolução de demandas sociais.
+
+Assim como a Extensão Universitária permite que os alunos adquiram experiência prática ao interagir com a comunidade, a EDU4MED cria um ambiente no qual estudantes de Medicina podem acessar informações relevantes para seu desenvolvimento profissional. Dessa forma, a plataforma não apenas simplifica a busca por oportunidades, mas também amplia o impacto da formação acadêmica ao conectar o ensino teórico às necessidades do mercado.
+
+Além disso, o envolvimento de alunos no desenvolvimento e na utilização da plataforma reforça habilidades fundamentais, como a capacidade de pesquisa, a análise de dados e o uso de novas tecnologias para solucionar problemas. Esse processo reflete diretamente o propósito da Extensão Universitária de formar profissionais diferenciados, que saibam aplicar o conhecimento de maneira prática e inovadora.
+
+Portanto, a relação entre a Extensão Universitária da PUC Minas e a plataforma EDU4MED exemplifica como a tecnologia pode ser um meio eficaz para fortalecer a conexão entre academia e sociedade. Iniciativas como essa mostram que a extensão vai além da sala de aula, sendo um caminho estratégico para impulsionar carreiras e gerar impacto positivo na comunidade.
+
+
+# Descrição do Parceiro
+
+A EDU4MED busca um sistema capaz de identificar e extrair automaticamente informações sobre editais e oportunidades na área da Medicina. O objetivo é desenvolver um robô que monitore diversas páginas especializadas e colete dados sobre concursos públicos, estágios e oportunidades de emprego para estudantes e profissionais da área.
+
+A plataforma deve oferecer um sistema de login e cadastro, permitindo que os usuários acessem as oportunidades de forma simples e direta. Além disso, será possível visualizar informações detalhadas sobre vagas, editais e concursos públicos, organizadas por cidade e estado em todo o Brasil.
+
+A listagem dessas oportunidades será exibida dentro da plataforma da EDU4MED, utilizando um sistema automatizado de Web Scraping para coletar e estruturar as informações de forma eficiente.
+
