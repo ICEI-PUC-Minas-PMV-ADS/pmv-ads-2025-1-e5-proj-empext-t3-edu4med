@@ -26,7 +26,13 @@ Dessa forma, buscamos democratizar o acesso às vagas, beneficiando estudantes q
 
 # Justificativa
 
+O Brasil enfrenta um grave desafio na formação de médicos, caracterizado pela escassez de vagas para Residência Médica. Um estudo da Faculdade de Medicina da Universidade de São Paulo (FMUSP) destaca que, embora o número de cursos de Medicina tenha aumentado significativamente — resultando em um crescimento de 71% no número de graduados — as vagas para Residência Médica cresceram apenas 26%. Isso evidencia um descompasso alarmante entre a formação de novos médicos e a capacitação necessária para a atuação profissional, criando um gargalo que compromete a qualidade da assistência à saúde no país (FMUSP, 2024).
 
+Atualmente, mais de 210 mil médicos generalistas no Brasil não concluíram a residência nem obtiveram títulos de especialidade reconhecidos, o que representa um potencial desperdiçado na formação de profissionais qualificados que poderiam contribuir para o sistema de saúde. Essa situação se torna ainda mais preocupante quando consideramos que diversas regiões do país, especialmente aquelas mais carentes, enfrentam uma grave escassez de médicos. Segundo reportagem do G1, a falta de médicos em áreas remotas é uma realidade que afeta diretamente a qualidade da saúde prestada à população, exacerbando as desigualdades existentes (G1, 2023).
+
+Diante desse cenário, o objetivo deste projeto é criar uma plataforma automatizada que organize e liste oportunidades de Residência Médica, disponibilizando editais relevantes de forma acessível para estudantes de Medicina. Acreditamos que, ao democratizar o acesso a essas informações, podemos beneficiar aqueles que, por diferentes motivos, não têm acesso fácil às oportunidades disponíveis. A plataforma não apenas facilitará a busca por vagas, mas também contribuirá para preencher as lacunas existentes na área da saúde em estados e cidades que carecem de profissionais qualificados.
+
+Além disso, a utilização de tecnologia é fundamental para promover o acesso a novas vagas de emprego e editais de concursos. Ao centralizar essas informações, nossa plataforma se tornará uma ferramenta valiosa para estudantes de Medicina, permitindo que eles estejam melhor informados e preparados para dar os próximos passos em suas carreiras. Essa iniciativa não apenas contribuirá para a formação de uma força de trabalho médica mais robusta, mas também ajudará a melhorar a qualidade da saúde em todo o Brasil.
 
 # Relação com a Extensão Universitária
 
