@@ -1,5 +1,7 @@
 # Edu4Med
 
+![image](https://github.com/user-attachments/assets/5245b3ad-5bc5-4488-900b-b11fb88c18c8)
+
 `CURSO`: Análise e Desenvolvimento de Sistemas
 
 `DISCIPLINA`: Eixo 5 - Projeto Desenvolvimento de um Sistema Sociotécnico Inovador 
