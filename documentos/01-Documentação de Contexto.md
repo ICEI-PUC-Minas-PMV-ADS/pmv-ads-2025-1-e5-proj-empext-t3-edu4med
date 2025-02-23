@@ -13,12 +13,16 @@ Portanto, a relação entre a Extensão Universitária e a plataforma EDU4MED de
 
 # Problema
 
-O Brasil enfrenta um agravamento na falta de vagas para Residência Médica, conforme revela um estudo da Faculdade de Medicina da Universidade de São Paulo (FMUSP), apesar do aumento significativo no número de cursos de medicina, que gerou uma alta de 71% no número de graduados, as vagas para Residência Médica não cresceram na mesma proporção, aumentando apenas 26%. Atualmente, existem mais de 210 mil médicos generalistas que não concluíram a residência nem obtiveram títulos de especialidade reconhecidos (FACULDADE DE MEDICIDA DA USP, 2024).
+O Brasil enfrenta um agravamento na falta de vagas para Residência Médica, conforme revela um estudo da Faculdade de Medicina da Universidade de São Paulo (FMUSP), apesar do aumento significativo no número de cursos de medicina, que gerou uma alta de 71% no número de graduados, as vagas para Residência Médica não cresceram na mesma proporção, aumentando apenas 26%. 
+
+Atualmente, existem mais de 210 mil médicos generalistas que não concluíram a residência nem obtiveram títulos de especialidade reconhecidos (FACULDADE DE MEDICIDA DA USP, 2024).
 
 
 # Objetivos
 
-O objetivo deste projeto é criar uma plataforma automatizada que organize e liste oportunidades para estudantes de Medicina, disponibilizando editais relevantes de maneira acessível. Dessa forma, buscamos democratizar o acesso às vagas, beneficiando estudantes que não têm acesso às informações necessárias. Consequentemente, isso ajudará a preencher as vagas na área da Medicina em estados e cidades brasileiras que enfrentam uma grande carência de profissionais qualificados que desejam iniciar sua jornada profissional.
+O objetivo deste projeto é criar uma plataforma automatizada que organize e liste oportunidades para estudantes de Medicina, disponibilizando editais relevantes de maneira acessível.
+
+Dessa forma, buscamos democratizar o acesso às vagas, beneficiando estudantes que não têm acesso às informações necessárias. Consequentemente, isso ajudará a preencher as vagas na área da Medicina em estados e cidades brasileiras que enfrentam uma grande carência de profissionais qualificados que desejam iniciar sua jornada profissional.
 
 # Justificativa
 
