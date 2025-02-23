@@ -1,6 +1,7 @@
 # Edu4Med
 
-![image](https://github.com/user-attachments/assets/5245b3ad-5bc5-4488-900b-b11fb88c18c8)
+![image](https://github.com/user-attachments/assets/5e31f2d1-ac16-480a-a67e-dd5bf78c423d)
+
 
 `CURSO`: Análise e Desenvolvimento de Sistemas
 
