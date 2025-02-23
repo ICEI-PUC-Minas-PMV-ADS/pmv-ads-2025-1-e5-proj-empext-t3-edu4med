@@ -11,6 +11,10 @@
 
 Plataforma automática de listagem de oportunidades para estudantes da área da medicina.
 
+O projeto tem como objetivo criar uma plataforma que liste automaticamente oportunidades para estudantes da área de Medicina, divulgando editais relevantes.
+
+Objetivo: Automatizar o processo de Web Scraping para coletar informações de uma fonte e apresentá-las na plataforma que será desenvolvida.
+
 ## Integrantes
 
 * Caê Moreira Euphrásio
