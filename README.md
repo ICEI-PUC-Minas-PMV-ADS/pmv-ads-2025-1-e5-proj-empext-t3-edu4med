@@ -9,7 +9,7 @@
 
 `SEMESTRE`: 5º Semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Plataforma automática de listagem de oportunidades para estudantes da área da medicina.
 
 ## Integrantes
 
