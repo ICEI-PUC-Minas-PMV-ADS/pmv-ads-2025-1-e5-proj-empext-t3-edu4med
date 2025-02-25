@@ -5,16 +5,11 @@
 Definição do problema e ideia de solução a partir da perspectiva do usuário. 
 
 ## Usuários
-| Tipo de Usuário   | Descrição | Responsabilidades |
-|------------------|-----------|------------------|
-| **xxx** | xxxxx | xxxxx |
-
-### Exemplo
 
 | Tipo de Usuário   | Descrição | Responsabilidades |
 |------------------|-----------|------------------|
-| **Administrador** | Gerencia a aplicação e os usuários. | Gerenciar usuários, configurar o sistema, acessar todos os relatórios. |
-| **Funcionário** | Usa a aplicação para suas tarefas principais. | Criar e editar registros, visualizar relatórios. |
+| **Administrador** | Valida os editais encontrados automaticamente, publica as oportunidades para o público e acessa dashboard de audiência dos usuários. | Validar os editais encontrados automaticamente, publicar as oportunidades para o público, adicionar oportunidades manualmente e acessar dashboard de audiênica dos usuários (Clicks, Navegação, tempo de uso da ferramenta e etc.) |
+| **Estudante** | Cadastra e edita a região e faculdades de interesse e visualiza uma tabela de oportunidades. | Cadastrar e editar regiões e faculdades de interesse, além de visualizar a tabela de oportunidades. | 
 
 
 ## Arquitetura e Tecnologias
