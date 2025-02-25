@@ -14,6 +14,17 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 ## Arquitetura e Tecnologias (Em construção)
 
+| Nome  | Função |
+|------------------|------------------|
+| **WhatsApp, Teams** | Comunicação entre a equipe; comunicação entre a equipe e o Product Owner do projeto. | 
+| **GitHub** | Repositório da documentação e do código fonte. | 
+| **Visual Studio Code, Visual Studio** | Editor de código. | 
+| **Figma** | Ferramenta de desenho de tela / Wireframes. | 
+| **Draw.io** | Ferramenta de criação de diagramas e modelos. | 
+| **React, ASP.NET Core, Beautiful Soup** | Bibliotecas e frameworks utilizados. |
+| **HTML, Css, JavaScript, Python** | Linguagens de programação utilizadas na criação do código fonte da aplicação. |  
+
+
 Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
 
 ## Project Model Canvas (Em construção)
