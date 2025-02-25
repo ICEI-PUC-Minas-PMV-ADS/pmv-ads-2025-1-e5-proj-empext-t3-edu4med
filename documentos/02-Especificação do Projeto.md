@@ -9,7 +9,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 | Tipo de Usuário   | Descrição | Responsabilidades |
 |------------------|-----------|------------------|
 | **Administrador** | Valida os editais encontrados automaticamente, publica as oportunidades para o público e acessa dashboard de audiência dos usuários. | Validar os editais encontrados automaticamente, publicar as oportunidades para o público, adicionar oportunidades manualmente e acessar dashboard de audiênica dos usuários (Clicks, Navegação, tempo de uso da ferramenta e etc.) |
-| **Usuários** | Cadastra e edita a região e faculdades de interesse e visualiza uma tabela de oportunidades. | Cadastrar e editar regiões e faculdades de interesse, além de visualizar a tabela de oportunidades. | 
+| **Usuário** | Cadastra e edita a região e faculdades de interesse e visualiza uma tabela de oportunidades. | Cadastrar e editar regiões e faculdades de interesse, além de visualizar a tabela de oportunidades. | 
 
 
 ## Arquitetura e Tecnologias
