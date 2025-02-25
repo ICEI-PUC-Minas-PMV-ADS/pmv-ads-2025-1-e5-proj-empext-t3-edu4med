@@ -12,11 +12,11 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 | **Usuário** | Cadastra e edita a região e as faculdades de interesse e visualiza a tabela de oportunidades. | Cadastrar e editar regiões e faculdades de interesse, além de visualizar a tabela de oportunidades. | 
 
 
-## Arquitetura e Tecnologias
+## Arquitetura e Tecnologias (Em construção)
 
 Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
 
-## Project Model Canvas
+## Project Model Canvas (Em construção)
 
 Deve ser desenvolvido a partir do microfundamento: Empreendedorismo e inovação.
 Colocar a imagem do modelo construído apresentando a proposta de solução.
@@ -24,7 +24,7 @@ Colocar a imagem do modelo construído apresentando a proposta de solução.
 > **Links Úteis**:
 > Disponíveis em material de apoio do projeto
 
-## Requisitos
+## Requisitos (Em construção)
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
@@ -89,7 +89,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
 
-## Projeto da Base de Dados
+## Projeto da Base de Dados (Em construção)
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
