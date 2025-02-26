@@ -52,8 +52,15 @@ Para mais informações, consulte os microfundamentos Fundamentos de Engenharia 
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Usabilidade: O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-002| Performance: Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Usabilidade: A aplicação deve ser utilizada sem a necessidade de curso ou manual, nas atividades complexas o máximo de erros aceitáveis por parte do usuário são 2 erros. |  ALTA  | 
+|RNF-004| Segurança: A senha do usuário deve conter no mínimo 6 caracteres, sendo uma letra maiúscula, letra minúscula e um dígito. |  ALTA  | 
+|RNF-005| Confiabilidade: A aplicação deve ser confiável, com no máximo 2 erros ou falhas por parte do sistema. |  ALTA  | 
+|RNF-006| Performance: A aplicação deve ser rápida e com boa performance mesmo em situações com mais de 10 usuários conectados simultaneamente. |  ALTA  | 
+|RNF-007| Performance: A aplicação deve carregar todas as telas em no máximo 5 segundos. |  ALTA  | 
+|RNF-008| Escalabilidade: A aplicação deve ser capaz de lidar com mais de 10 usuários novos a cada ano, sem comprometer seu desempenho ou segurança. |  ALTA  | 
+|RNF-009| Manutenibilidade: A aplicação deve ser facilmente mantida e atualizada, com código organizado e documentação clara no GitHub. |  MÉDIA  |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
