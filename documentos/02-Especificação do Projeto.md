@@ -9,7 +9,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 | Tipo de Usuário   | Descrição | Responsabilidades |
 |------------------|-----------|------------------|
 | **Administrador** | Valida os editais encontrados automaticamente, publica as oportunidades para o público e acessa dashboard de audiência dos usuários. | Validar os editais encontrados automaticamente, publicar as oportunidades para o público, adicionar oportunidades manualmente e acessar dashboard de audiênica dos usuários (Clicks, Navegação, tempo de uso da ferramenta e etc.) |
-| **Usuário** | Cadastra e edita a região e as faculdades de interesse e visualiza a tabela de oportunidades. | Cadastrar e editar regiões e faculdades de interesse, além de visualizar a tabela de oportunidades. | 
+| **Usuário** | Cadastra e edita as regiões e faculdades de interesse, além disso visualiza a tabela de oportunidades. | Cadastrar e editar regiões e faculdades de interesse, além de visualizar a tabela de oportunidades. | 
 
 
 ## Arquitetura e Tecnologias
@@ -46,7 +46,7 @@ Para mais informações, consulte os microfundamentos Fundamentos de Engenharia 
 |RF-002| Permitir que o administrador se cadastre. | ALTA |
 |RF-003| Permitir que o usuário recupere a senha. | MÉDIA | 
 |RF-004| Permitir que o administrador recupere a senha. | MÉDIA |
-|RF-005| Permitir que o usuário cadastre a região e a faculdade de interesse. | ALTA | 
+|RF-005| Permitir que o usuário cadastre e edite suas regiões e faculdades de interesse. | ALTA | 
 |RF-006| Permitir que o usuário visualize uma tabela de Visualização das Oportunidades. | ALTA | 
 
 ### Requisitos não Funcionais
