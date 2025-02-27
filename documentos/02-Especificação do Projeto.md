@@ -12,7 +12,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 | **Usuário** | Cadastra e edita a região e as faculdades de interesse e visualiza a tabela de oportunidades. | Cadastrar e editar regiões e faculdades de interesse, além de visualizar a tabela de oportunidades. | 
 
 
-## Arquitetura e Tecnologias (Em construção)
+## Arquitetura e Tecnologias
 
 | Nome  | Função |
 |------------------|------------------|
@@ -20,12 +20,9 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 | **GitHub** | Repositório da documentação e do código fonte. | 
 | **Visual Studio Code, Visual Studio** | Editor de código. | 
 | **Figma** | Ferramenta de desenho de tela / Wireframes. | 
-| **Draw.io** | Ferramenta de criação de diagramas e modelos. | 
+| **Lucidchart** | Ferramenta de criação de diagramas e modelos. | 
 | **React, ASP.NET Core, Beautiful Soup** | Bibliotecas e frameworks utilizados. |
 | **HTML, Css, JavaScript, Python** | Linguagens de programação utilizadas na criação do código fonte da aplicação. |  
-
-
-Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
 
 ## Project Model Canvas (Em construção)
 
@@ -45,8 +42,12 @@ Para mais informações, consulte os microfundamentos Fundamentos de Engenharia 
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário se cadastre utilizando dados pessoais. | ALTA | 
+|RF-002| Permitir que o administrador se cadastre. | ALTA |
+|RF-003| Permitir que o usuário recupere a senha. | MÉDIA | 
+|RF-004| Permitir que o administrador recupere a senha. | MÉDIA |
+|RF-005| Permitir que o usuário cadastre a região e a faculdade de interesse. | ALTA | 
+|RF-006| Permitir que o usuário visualize uma tabela de Visualização das Oportunidades. | ALTA | 
 
 ### Requisitos não Funcionais
 
