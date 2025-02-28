@@ -53,7 +53,7 @@ Para mais informações, consulte os microfundamentos Fundamentos de Engenharia 
 | RF-009  | Permitir que o administrador cadastre, edite e exclua editais manualmente. | ALTA |
 | RF-010  | Exibir uma página com perguntas frequentes (FAQ) sobre o uso da plataforma. | MÉDIA |
 | RF-011  | Disponibilizar uma seção de contato para que usuários possam enviar dúvidas ou sugestões. | MÉDIA |
-| RF-012  | Garantir que a plataforma seja responsiva e acessível em dispositivos móveis. | ALTA |
+| RF-012  | Permitir que o administrador visualize uma dashboard de audiência dos usuários com as seguintes informações: clicks, tempo de uso da ferramenta e a quantidade total de usuários. | ALTA |
 
 
 ### Requisitos não Funcionais
