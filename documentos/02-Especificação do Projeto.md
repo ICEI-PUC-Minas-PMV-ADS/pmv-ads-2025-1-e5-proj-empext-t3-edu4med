@@ -40,14 +40,21 @@ Para mais informações, consulte os microfundamentos Fundamentos de Engenharia 
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário se cadastre utilizando dados pessoais. | ALTA | 
-|RF-002| Permitir que o administrador se cadastre. | ALTA |
-|RF-003| Permitir que o usuário recupere a senha. | MÉDIA | 
-|RF-004| Permitir que o administrador recupere a senha. | MÉDIA |
-|RF-005| Permitir que o usuário cadastre e edite suas regiões e faculdades de interesse. | ALTA | 
-|RF-006| Permitir que o usuário visualize uma tabela de Visualização das Oportunidades. | ALTA | 
+| Código  | Descrição | Prioridade |
+|---------|-----------------------------------------------|-----------|
+| RF-001  | Permitir que o usuário se cadastre utilizando dados pessoais. | ALTA |
+| RF-002  | Permitir que o administrador se cadastre. | ALTA |
+| RF-003  | Permitir que o usuário recupere a senha. | MÉDIA |
+| RF-004  | Permitir que o administrador recupere a senha. | MÉDIA |
+| RF-005  | Permitir que o usuário cadastre e edite suas regiões e faculdades de interesse. | ALTA |
+| RF-006  | Permitir que o usuário visualize uma tabela de Visualização das Oportunidades. | ALTA |
+| RF-007  | Permitir que o usuário filtre os editais por localização, período de inscrição e tipo de vestibular. | ALTA |
+| RF-008  | Permitir que o usuário visualize detalhes completos dos editais disponíveis. | ALTA |
+| RF-009  | Permitir que o administrador cadastre, edite e exclua editais manualmente. | ALTA |
+| RF-010  | Exibir uma página com perguntas frequentes (FAQ) sobre o uso da plataforma. | MÉDIA |
+| RF-011  | Disponibilizar uma seção de contato para que usuários possam enviar dúvidas ou sugestões. | MÉDIA |
+| RF-012  | Garantir que a plataforma seja responsiva e acessível em dispositivos móveis. | ALTA |
+
 
 ### Requisitos não Funcionais
 
