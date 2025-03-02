@@ -44,14 +44,19 @@ Dessa maneira, a plataforma da Edu4Med não apenas simplificará a jornada dos c
 
 Atualmente, mais de 210 mil médicos generalistas no Brasil não concluíram a residência nem obtiveram títulos de especialidade reconhecidos, o que representa um potencial desperdiçado na formação de profissionais qualificados que poderiam contribuir para o sistema de saúde. Essa situação se torna ainda mais preocupante quando consideramos que diversas regiões do país, especialmente aquelas mais carentes, enfrentam uma grave escassez de médicos. Segundo reportagem do [^2] G1, a falta de médicos em áreas remotas é uma realidade que afeta diretamente a qualidade da saúde prestada à população, exacerbando as desigualdades existentes (G1, 2023).
 
+Além disso o ingresso no curso de Medicina no Brasil é extremamente concorrido, e muitos candidatos acabam perdendo prazos de inscrição devido à falta de acesso a informações organizadas sobre os editais. Segundo o portal Melhores Escolas Médicas[^3], o vestibular da Universidade de São Paulo (USP), aplicado pela Fuvest (Fundação Universitária para o Vestibular), é considerado um dos processos seletivos mais concorridos do país. Dentre todos os cursos da instituição, Medicina é o que apresenta a maior disputa por vaga. Embora o curso de Medicina seja oferecido apenas nas cidades de São Paulo, Ribeirão Preto e Bauru, as provas da Fuvest são aplicadas em diversas localidades do estado. No vestibular de 2023, o curso ofertado no campus São Paulo registrou uma relação candidato/vaga de 117,7, evidenciando sua alta concorrência (MELHORES ESCOLAS MÉDICAS, 2023).
+
+Analisando esse cenário, a busca por vestibulares exige um esforço manual significativo, pois os estudantes precisam acessar diversos sites para encontrar editais atualizados. No entanto, não existe um sistema centralizado e automatizado que disponibilize essas informações de maneira acessível e estruturada, o que dificulta ainda mais o processo de inscrição e planejamento dos candidatos.
+
 Diante desse cenário, o objetivo deste projeto é criar uma plataforma automatizada que organize e liste oportunidades de Residência Médica, disponibilizando editais relevantes de forma acessível para estudantes de Medicina. Acreditamos que, ao democratizar o acesso a essas informações, podemos beneficiar aqueles que, por diferentes motivos, não têm acesso fácil às oportunidades disponíveis. A plataforma não apenas facilitará a busca por vagas, mas também contribuirá para preencher as lacunas existentes na área da saúde em estados e cidades que carecem de profissionais qualificados.
 
-Além disso, a utilização de tecnologia é fundamental para promover o acesso a novas vagas de emprego e editais de concursos. Conforme uma matéria da [^3] Forbes, a tomada de decisão e planejamento estratégico aprimorados aos sistemas tecnológicos podem analisar vastos conjuntos de dados, reconhecer padrões e prever resultados, oferecendo assim insights que podem ser imprescindíveis ​​para a estratégia empresarial e na busca por empregos, desde a previsão de tendências de mercado até a otimização das cadeias de abastecimento de ofertas (FORBES, 2024).
+Além disso, a utilização de tecnologia é fundamental para promover o acesso a novas vagas de emprego e editais de concursos. Conforme uma matéria da [^4] Forbes, a tomada de decisão e planejamento estratégico aprimorados aos sistemas tecnológicos podem analisar vastos conjuntos de dados, reconhecer padrões e prever resultados, oferecendo assim insights que podem ser imprescindíveis ​​para a estratégia empresarial e na busca por empregos, desde a previsão de tendências de mercado até a otimização das cadeias de abastecimento de ofertas (FORBES, 2024).
 
 Ao centralizar essas informações, uma plataforma tecnologica se tornará uma ferramenta valiosa para promover vagas e editais de empregos, permitindo que os profissionaisestejam melhor informados e preparados para dar os próximos passos em suas carreiras. Essa iniciativa não apenas contribuirá para a formação de uma força de trabalho mais robusta, mas também ajudará a melhorar a qualidade do profissionalismo em todo o Brasil.
 
 [^2]: https://g1.globo.com/saude/noticia/2023/02/06/brasil-tem-5454-mil-medicos-mais-da-metade-esta-concentrada-somente-nas-capitais.ghtml
 [^3]: https://forbes.com.br/carreira/2024/01/como-a-ia-generativa-mudara-todos-os-nossos-empregos-em-2024/
+[^4]: https://melhoresescolasmedicas.com/tudo-sobre-os-vestibulares-de-medicina-mais-concorridos-do-brasil/
 
 # Relação com a Extensão Universitária
 
@@ -64,7 +69,6 @@ Assim como a Extensão Universitária permite que os alunos adquiram experiênci
 Além disso, o envolvimento de alunos no desenvolvimento e na utilização da plataforma reforça habilidades fundamentais, como a capacidade de pesquisa, a análise de dados e o uso de novas tecnologias para solucionar problemas. Esse processo reflete diretamente o propósito da Extensão Universitária de formar profissionais diferenciados, que saibam aplicar o conhecimento de maneira prática e inovadora.
 
 Portanto, a relação entre a Extensão Universitária da PUC Minas e a plataforma EDU4MED exemplifica como a tecnologia pode ser um meio eficaz para fortalecer a conexão entre academia e sociedade. Iniciativas como essa mostram que a extensão vai além da sala de aula, sendo um caminho estratégico para impulsionar carreiras e gerar impacto positivo na comunidade.
-
 
 # Descrição do Parceiro
 
