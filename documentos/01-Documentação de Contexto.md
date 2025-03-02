@@ -57,6 +57,9 @@ Ao centralizar essas informações, uma plataforma tecnologica se tornará uma f
 [^2]: https://g1.globo.com/saude/noticia/2023/02/06/brasil-tem-5454-mil-medicos-mais-da-metade-esta-concentrada-somente-nas-capitais.ghtml
 [^3]: https://melhoresescolasmedicas.com/tudo-sobre-os-vestibulares-de-medicina-mais-concorridos-do-brasil/
 [^4]: https://forbes.com.br/carreira/2024/01/como-a-ia-generativa-mudara-todos-os-nossos-empregos-em-2024/
+[^5]: https://www.instagram.com/pontuamed
+[^6]: https://www.instagram.com/educatbh
+
 
 # Relação com a Extensão Universitária
 
@@ -72,9 +75,12 @@ Portanto, a relação entre a Extensão Universitária da PUC Minas e a platafor
 
 # Descrição do Parceiro
 
-A EDU4MED busca um sistema capaz de identificar e extrair automaticamente informações sobre editais e oportunidades na área da Medicina. O objetivo é desenvolver um robô que monitore diversas páginas especializadas e colete dados sobre concursos públicos, estágios e oportunidades de emprego para estudantes e profissionais da área.
+A Edu4Med busca desenvolver um sistema automatizado capaz de identificar e extrair, de forma eficiente, informações sobre editais e oportunidades na área da Medicina. O objetivo é criar um robô que monitore diversas páginas especializadas e colete dados sobre concursos públicos, estágios e oportunidades de emprego para estudantes e profissionais do setor.
 
-A plataforma deve oferecer um sistema de login e cadastro, permitindo que os usuários acessem as oportunidades de forma simples e direta. Além disso, será possível visualizar informações detalhadas sobre vagas, editais e concursos públicos, organizadas por cidade e estado em todo o Brasil.
+A plataforma contará com um sistema de login e cadastro, permitindo que os usuários acessem as oportunidades de maneira simples e intuitiva. Além disso, será possível visualizar informações detalhadas sobre vagas, editais e concursos públicos, organizadas por cidade e estado em todo o Brasil. Para garantir a atualização contínua desses dados, a Edu4Med utilizará um sistema automatizado de Web Scraping, que coletará e estruturará as informações de forma eficiente.
 
-A listagem dessas oportunidades será exibida dentro da plataforma da EDU4MED, utilizando um sistema automatizado de Web Scraping para coletar e estruturar as informações de forma eficiente.
+A Edu4Med nasceu da união entre as empresas PontuaMed[^5] e EduCAT[^6], compartilhando o compromisso de oferecer tecnologia inovadora para a educação médica. Como valor e princípio fundamental, a empresa se dedica a desenvolver soluções que otimizem o aprendizado e a jornada acadêmica dos estudantes de Medicina. Seu foco principal é auxiliar esses alunos na construção de um currículo sólido, além de engajá-los no processo seletivo para ingresso na faculdade.
 
+Os principais stakeholders externos incluem estudantes, cursinhos preparatórios, universidades, portais de educação e órgãos reguladores, como o MEC. Durante o curso de Medicina, os alunos precisam realizar atividades complementares, como extensão universitária, participação em ligas acadêmicas e iniciação científica, que são reconhecidas e validadas ao final da graduação, especialmente no momento da prova de residência.
+
+Desse modo, a Edu4Med tem como missão e objetivo desenvolver soluções que facilitem a educação médica, tornando a busca por informações mais acessível e eficiente. Como benefícios futuros, a plataforma visa democratizar o acesso às informações sobre vestibulares de Medicina, reduzir o tempo e o esforço despendidos pelos candidatos, aumentar a transparência no processo seletivo e facilitar a tomada de decisão sobre onde prestar o vestibular. Além disso, há o potencial de expansão da solução para outras áreas acadêmicas, ampliando seu impacto no setor educacional.
