@@ -62,13 +62,13 @@ Ao centralizar essas informações, uma plataforma tecnologica se tornará uma f
 
 A Extensão Universitária, conforme desenvolvida pela PUC Minas, tem um papel essencial na formação dos alunos, proporcionando-lhes a oportunidade de aplicar os conhecimentos adquiridos em sala de aula na prática. Essa iniciativa busca conectar os discentes à sociedade, permitindo que eles compreendam melhor os desafios reais do mercado de trabalho e desenvolvam soluções inovadoras para problemas concretos.
 
-Nesse contexto, a plataforma EDU4MED se alinha perfeitamente aos princípios da Extensão Universitária, pois seu objetivo é utilizar tecnologia para facilitar o acesso a oportunidades na área médica. O desenvolvimento do sistema, que utiliza Web Scraping para coletar e organizar informações sobre editais, concursos e estágios, representa uma aplicação direta do conhecimento acadêmico à resolução de demandas sociais.
+Nesse contexto, a plataforma Edu4Med se alinha perfeitamente aos princípios da Extensão Universitária, pois seu objetivo é utilizar tecnologia para facilitar o acesso a oportunidades na área médica. O desenvolvimento do sistema, que utiliza Web Scraping para coletar e organizar informações sobre editais, concursos e estágios, representa uma aplicação direta do conhecimento acadêmico à resolução de demandas sociais.
 
 Assim como a Extensão Universitária permite que os alunos adquiram experiência prática ao interagir com a comunidade, a EDU4MED cria um ambiente no qual estudantes de Medicina podem acessar informações relevantes para seu desenvolvimento profissional. Dessa forma, a plataforma não apenas simplifica a busca por oportunidades, mas também amplia o impacto da formação acadêmica ao conectar o ensino teórico às necessidades do mercado.
 
 Além disso, o envolvimento de alunos no desenvolvimento e na utilização da plataforma reforça habilidades fundamentais, como a capacidade de pesquisa, a análise de dados e o uso de novas tecnologias para solucionar problemas. Esse processo reflete diretamente o propósito da Extensão Universitária de formar profissionais diferenciados, que saibam aplicar o conhecimento de maneira prática e inovadora.
 
-Portanto, a relação entre a Extensão Universitária da PUC Minas e a plataforma EDU4MED exemplifica como a tecnologia pode ser um meio eficaz para fortalecer a conexão entre academia e sociedade. Iniciativas como essa mostram que a extensão vai além da sala de aula, sendo um caminho estratégico para impulsionar carreiras e gerar impacto positivo na comunidade.
+Portanto, a relação entre a Extensão Universitária da PUC Minas e a plataforma Edu4Med exemplifica como a tecnologia pode ser um meio eficaz para fortalecer a conexão entre academia e sociedade. Iniciativas como essa mostram que a extensão vai além da sala de aula, sendo um caminho estratégico para impulsionar carreiras e gerar impacto positivo na comunidade.
 
 # Descrição do Parceiro
 
