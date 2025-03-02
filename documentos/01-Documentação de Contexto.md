@@ -55,8 +55,8 @@ Além disso, a utilização de tecnologia é fundamental para promover o acesso 
 Ao centralizar essas informações, uma plataforma tecnologica se tornará uma ferramenta valiosa para promover vagas e editais de empregos, permitindo que os profissionaisestejam melhor informados e preparados para dar os próximos passos em suas carreiras. Essa iniciativa não apenas contribuirá para a formação de uma força de trabalho mais robusta, mas também ajudará a melhorar a qualidade do profissionalismo em todo o Brasil.
 
 [^2]: https://g1.globo.com/saude/noticia/2023/02/06/brasil-tem-5454-mil-medicos-mais-da-metade-esta-concentrada-somente-nas-capitais.ghtml
-[^3]: https://forbes.com.br/carreira/2024/01/como-a-ia-generativa-mudara-todos-os-nossos-empregos-em-2024/
-[^4]: https://melhoresescolasmedicas.com/tudo-sobre-os-vestibulares-de-medicina-mais-concorridos-do-brasil/
+[^3]: https://melhoresescolasmedicas.com/tudo-sobre-os-vestibulares-de-medicina-mais-concorridos-do-brasil/
+[^4]: https://forbes.com.br/carreira/2024/01/como-a-ia-generativa-mudara-todos-os-nossos-empregos-em-2024/
 
 # Relação com a Extensão Universitária
 
