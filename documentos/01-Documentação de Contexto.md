@@ -32,9 +32,13 @@ Isso é especialmente importante para estudantes que não têm acesso fácil a e
 
 # Objetivos
 
-O objetivo deste projeto é criar uma plataforma automatizada que organize e liste oportunidades para estudantes de Medicina, disponibilizando editais relevantes de maneira acessível.
+O objetivo deste projeto é desenvolver uma plataforma automatizada que organize e disponibilize, de forma acessível, editais de vestibulares de Medicina, facilitando a busca por oportunidades para os estudantes da área. 
+Com essa iniciativa, buscamos democratizar o acesso às vagas, beneficiando candidatos que, muitas vezes, não encontram as informações necessárias para ingressar na graduação. Além disso, a plataforma contribuirá para o preenchimento de vagas em estados e cidades brasileiras que enfrentam escassez de profissionais qualificados.
 
-Dessa forma, buscamos democratizar o acesso às vagas, beneficiando estudantes que não têm acesso às informações necessárias. Consequentemente, isso ajudará a preencher as vagas na área da Medicina em estados e cidades brasileiras que enfrentam uma grande carência de profissionais qualificados que desejam iniciar sua jornada profissional.
+Para garantir a viabilidade do projeto, partimos de algumas premissas fundamentais. Os sites das universidades continuarão disponibilizando editais de forma pública, o que permitirá a coleta de dados de maneira transparente. A tecnologia de Web Scraping será utilizada para acessar e extrair essas informações de forma eficiente, garantindo que a plataforma esteja sempre atualizada. Além disso, acreditamos que os candidatos terão interesse em uma solução digital que facilite a busca por vestibulares de Medicina, otimizando o tempo e aumentando as chances de encontrar as melhores oportunidades dentro da plataforma da Edu4Med.
+
+Nosso principal objetivo é desenvolver uma plataforma centralizada que reúna todos os editais de vestibulares de Medicina no Brasil. Essa solução tecnológica será essencial para reduzir a dificuldade de acesso às informações, tornando a concorrência mais justa e acessível para todos os estudantes. Para isso, utilizaremos tecnologia de Web Scraping, permitindo que os editais sejam atualizados automaticamente, garantindo precisão e confiabilidade nas informações disponibilizadas. 
+Dessa maneira, a plataforma da Edu4Med não apenas simplificará a jornada dos candidatos, mas também contribuirá para uma melhor distribuição de profissionais da saúde pelo país.
 
 # Justificativa
 
