@@ -18,6 +18,16 @@ Dessa forma, a Edu4Med não apenas otimiza a busca por oportunidades na área m�
 
 O Brasil enfrenta um grave desafio na formação de médicos, caracterizado pela escassez de vagas para Residência Médica. Um estudo da Faculdade de Medicina da Universidade de São Paulo [^1] (FMUSP) destaca que, embora o número de cursos de Medicina tenha aumentado significativamente — resultando em um crescimento de 71% no número de graduados — as vagas para Residência Médica cresceram apenas 26%. Isso evidencia um descompasso alarmante entre a formação de novos médicos e a capacitação necessária para a atuação profissional, criando um gargalo que compromete a qualidade da assistência à saúde no país (FMUSP, 2024).
 
+Dessa forma, diante da dificuldade enfrentada por estudantes de Medicina na busca por oportunidades acadêmicas e profissionais e considerando a enorme escassez de vagas para Residência Médica, a Edu4Med surge como uma solução inovadora para preencher essa lacuna. A plataforma pretende auxiliar os candidatos ao vestibular de Medicina, oferecendo um planejamento estruturado para poderem se preparar com mais foco e eficiência, garantindo uma formação acadêmica de maior qualidade.
+
+Durante o curso de Medicina, os estudantes precisam, obrigatoriamente, participar de atividades de extensão, ligas acadêmicas, iniciação científica, entre outras experiências fundamentais para sua formação. Essas atividades são reconhecidas e validadas ao final do curso, especialmente no momento da preparação para a prova de residência médica, um passo crucial para sua carreira.
+Assim, o principal propósito da Edu4Med é facilitar o acesso a essas oportunidades, permitindo que os estudantes encontrem e participem de editais de vestibulares de Medicina de maneira prática e organizada. 
+
+A plataforma oferece um sistema eficiente para localizar e filtrar essas oportunidades, ajudando os alunos a se planejarem melhor e a tomarem decisões mais estratégicas para sua trajetória acadêmica.
+Além disso, a missão da Edu4Med é desenvolver soluções tecnológicas que simplifiquem a educação médica e otimizem a busca por informações relevantes, democratizando o acesso a vagas e oportunidades. 
+
+Isso é especialmente importante para estudantes que não têm acesso fácil a esses editais, principalmente em regiões onde a divulgação dessas informações é limitada. Dessa forma, a plataforma contribui tanto para a qualificação dos futuros médicos quanto para um preenchimento mais eficiente das vagas disponíveis no mercado.
+
 [^1]: https://www.fm.usp.br/fmusp/noticias/estudo-da-fmusp-revela-agravamento-na-falta-de-vagas-para-residencia-medica-no-brasil
 
 # Objetivos
