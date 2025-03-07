@@ -24,10 +24,9 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 | **React, ASP.NET Core, Beautiful Soup** | Bibliotecas e frameworks utilizados. |
 | **HTML, Css, JavaScript, Python** | Linguagens de programação utilizadas na criação do código fonte da aplicação. |  
 
-## Project Model Canvas (Em construção)
+## Project Model Canvas
 
-Deve ser desenvolvido a partir do microfundamento: Empreendedorismo e inovação.
-Colocar a imagem do modelo construído apresentando a proposta de solução.
+![projectmodelcanvas_-_edu4med](https://github.com/user-attachments/assets/9ed81ab7-5444-429f-a0a0-560964257cf8)
 
 > **Links Úteis**:
 > Disponíveis em material de apoio do projeto
