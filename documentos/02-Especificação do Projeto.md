@@ -103,9 +103,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ![uml](https://github.com/user-attachments/assets/5d8d5da1-084a-4dfb-8359-1af5bb3a50db)
 
-## Projeto da Base de Dados (Em construção)
+## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+
+ ![Modelo BD](https://github.com/user-attachments/assets/16a3cd8a-925f-4bc8-9001-d565cf102d56)
+
+
 
