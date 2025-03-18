@@ -19,7 +19,7 @@
 ![Perfil](https://github.com/user-attachments/assets/8c23a9bf-0f55-4e86-b2da-c706a9d39dd8)
 
 ## Icones utilizados:
-<img>(https://github.com/user-attachments/assets/04e43758-2cc4-4790-a103-cb4970153fbf width="100" height="100")
+<img src="https://github.com/user-attachments/assets/04e43758-2cc4-4790-a103-cb4970153fbf" width="100" height="100">
 ![heart](https://github.com/user-attachments/assets/228768a4-b468-4ee6-9ad6-127d93c54e5f)
 ![filter](https://github.com/user-attachments/assets/8c599b35-1fe3-4ee7-ad58-76c4f6c892fb)
 ![user](https://github.com/user-attachments/assets/d0091b5c-2cb6-4d01-9e22-9e736bb7c0e4)
