@@ -2,6 +2,7 @@
 # Projeto de Interface
 
 <span style="color:red">Pré-requisitos: <a href="02-Especificação do Projeto.md"> Especificação do Projeto</a></span>
+Visão geral da interação do usuário com as funcionalidades que fazem parte do sistema sociotécnico (protótipo de telas).
 
 ### Tela de Cadastro de conta:
 ![CadastroConta](https://github.com/user-attachments/assets/ddd64688-f41a-4ddd-9494-f06d717a6547)
@@ -17,5 +18,3 @@
 
 ### Tela de Perfil:
 ![Perfil](https://github.com/user-attachments/assets/8c23a9bf-0f55-4e86-b2da-c706a9d39dd8)
-
-Visão geral da interação do usuário com as funcionalidades que fazem parte do sistema sociotécnico (protótipo de telas).
