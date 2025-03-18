@@ -18,7 +18,7 @@
 ### Tela de Perfil:
 ![Perfil](https://github.com/user-attachments/assets/8c23a9bf-0f55-4e86-b2da-c706a9d39dd8)
 
-### Icones utilizados:
+## Icones utilizados:
 ![search-interface-symbol](https://github.com/user-attachments/assets/04e43758-2cc4-4790-a103-cb4970153fbf)
 ![heart](https://github.com/user-attachments/assets/228768a4-b468-4ee6-9ad6-127d93c54e5f)
 ![filter](https://github.com/user-attachments/assets/8c599b35-1fe3-4ee7-ad58-76c4f6c892fb)
