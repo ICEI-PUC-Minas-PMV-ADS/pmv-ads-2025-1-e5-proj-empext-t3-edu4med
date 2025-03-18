@@ -19,10 +19,10 @@
 ![Perfil](https://github.com/user-attachments/assets/8c23a9bf-0f55-4e86-b2da-c706a9d39dd8)
 
 ## Icones utilizados:
-![search-interface-symbol](https://github.com/user-attachments/assets/04e43758-2cc4-4790-a103-cb4970153fbf)
-![heart](https://github.com/user-attachments/assets/228768a4-b468-4ee6-9ad6-127d93c54e5f)
-![filter](https://github.com/user-attachments/assets/8c599b35-1fe3-4ee7-ad58-76c4f6c892fb)
-![user](https://github.com/user-attachments/assets/d0091b5c-2cb6-4d01-9e22-9e736bb7c0e4)
+![search-interface-symbol](https://github.com/user-attachments/assets/04e43758-2cc4-4790-a103-cb4970153fbf | width=100)
+![heart](https://github.com/user-attachments/assets/228768a4-b468-4ee6-9ad6-127d93c54e5f | width=100)
+![filter](https://github.com/user-attachments/assets/8c599b35-1fe3-4ee7-ad58-76c4f6c892fb | width=100)
+![user](https://github.com/user-attachments/assets/d0091b5c-2cb6-4d01-9e22-9e736bb7c0e4 | width=100)
 
 
 Visão geral da interação do usuário com as funcionalidades que fazem parte do sistema sociotécnico (protótipo de telas).
