@@ -22,7 +22,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 | **Figma** | Ferramenta de desenho de tela / Wireframes. | 
 | **Lucidchart** | Ferramenta de criação de diagramas e modelos. | 
 | **React, ASP.NET Core, Beautiful Soup** | Bibliotecas e frameworks utilizados. |
-| **HTML, Css, JavaScript, Python** | Linguagens de programação utilizadas na criação do código fonte da aplicação. |  
+| **HTML, Css, JavaScript, TypeScript, Python** | Linguagens de programação utilizadas na criação do código fonte da aplicação. |  
 
 ## Project Model Canvas
 
