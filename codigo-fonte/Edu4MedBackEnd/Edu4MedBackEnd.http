@@ -1,0 +1,6 @@
+@Edu4MedBackEnd_HostAddress = http://localhost:5187
+
+GET {{Edu4MedBackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
