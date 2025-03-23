@@ -1,7 +1,6 @@
 📱🩺🏥✅**Edu4Med - Plataforma Automatizada para busca de oportunidades na Medicina.**
 
-![image](https://github.com/user-attachments/assets/5e31f2d1-ac16-480a-a67e-dd5bf78c423d)
-
+![image](https://github.com/user-attachments/assets/434ef1cd-a770-4924-8fab-75a498d92dc9)
 
 `CURSO`: Análise e Desenvolvimento de Sistemas
 
