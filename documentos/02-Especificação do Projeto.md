@@ -48,7 +48,7 @@ Para mais informações, consulte os microfundamentos Fundamentos de Engenharia 
 | RF-005  | Permitir que o usuário cadastre e edite suas regiões e faculdades de interesse. | ALTA |
 | RF-006  | Permitir que o usuário visualize uma tabela de Visualização das Oportunidades. | ALTA |
 | RF-007  | Permitir que o usuário filtre os editais por localização, período de inscrição e tipo de vestibular. | ALTA |
-| RF-008  | Permitir que o usuário visualize detalhes completos dos editais disponíveis. | ALTA |
+| RF-008  | Exibir alertas (mensagens) quando a inscrição de um edital estiver próxima do prazo final. | ALTA |
 | RF-009  | Permitir que o administrador cadastre, edite e exclua editais manualmente. | ALTA |
 | RF-010  | Exibir uma página com perguntas frequentes (FAQ) sobre o uso da plataforma. | MÉDIA |
 | RF-011  | Disponibilizar uma seção de contato para que usuários possam enviar dúvidas ou sugestões. | MÉDIA |
