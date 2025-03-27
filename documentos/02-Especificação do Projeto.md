@@ -42,17 +42,15 @@ Para mais informações, consulte os microfundamentos Fundamentos de Engenharia 
 | Código  | Descrição | Prioridade |
 |---------|-----------------------------------------------|-----------|
 | RF-001  | Permitir que o usuário se cadastre utilizando dados pessoais. | ALTA |
-| RF-002  | Permitir que o administrador se cadastre. | ALTA |
-| RF-003  | Permitir que o usuário recupere a senha. | MÉDIA |
-| RF-004  | Permitir que o administrador recupere a senha. | MÉDIA |
-| RF-005  | Permitir que o usuário cadastre e edite suas regiões e faculdades de interesse. | ALTA |
-| RF-006  | Permitir que o usuário visualize uma tabela de Visualização das Oportunidades. | ALTA |
-| RF-007  | Permitir que o usuário filtre os editais por localização, período de inscrição e tipo de vestibular. | ALTA |
-| RF-008  | Exibir alertas (mensagens) quando a inscrição de um edital estiver próxima do prazo final. | BAIXA |
-| RF-009  | Permitir que o administrador cadastre, edite e exclua editais manualmente. | ALTA |
-| RF-010  | Exibir uma página com perguntas frequentes (FAQ) sobre o uso da plataforma. | MÉDIA |
-| RF-011  | Disponibilizar uma seção de contato para que usuários possam enviar dúvidas ou sugestões. | MÉDIA |
-| RF-012  | Permitir que o administrador visualize uma dashboard de audiência dos usuários com as seguintes informações: clicks, tempo de uso da ferramenta e a quantidade total de usuários. | ALTA |
+| RF-002  | Permitir que o usuário recupere a senha. | MÉDIA |
+| RF-003  | Permitir que o usuário cadastre e edite suas regiões e faculdades de interesse. | ALTA |
+| RF-004  | Permitir que o usuário visualize uma tabela de Visualização das Oportunidades. | ALTA |
+| RF-005  | Permitir que o usuário filtre os editais por localização, período de inscrição e tipo de vestibular. | ALTA |
+| RF-006  | Exibir alertas (mensagens) quando a inscrição de um edital estiver próxima do prazo final. | BAIXA |
+| RF-007  | Permitir que o administrador cadastre, edite e exclua editais manualmente. | ALTA |
+| RF-008  | Exibir uma página com perguntas frequentes (FAQ) sobre o uso da plataforma. | MÉDIA |
+| RF-009  | Disponibilizar uma seção de contato para que usuários possam enviar dúvidas ou sugestões. | MÉDIA |
+| RF-010  | Permitir que o administrador visualize uma dashboard de audiência dos usuários com as seguintes informações: clicks, tempo de uso da ferramenta e a quantidade total de usuários. | ALTA |
 
 
 ### Requisitos não Funcionais
