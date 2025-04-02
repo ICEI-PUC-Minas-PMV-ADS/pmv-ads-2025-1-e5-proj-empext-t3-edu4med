@@ -99,7 +99,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Caso de Uso
 
-![Edu4Med UML](https://github.com/user-attachments/assets/cdea1a6f-def7-4f8f-ae3e-e59a089bf4e0)
+![Edu4Med UML (1)](https://github.com/user-attachments/assets/f2da0ca5-822e-4501-812d-0f540f5d1d6b)
 
 ## Projeto da Base de Dados
 
