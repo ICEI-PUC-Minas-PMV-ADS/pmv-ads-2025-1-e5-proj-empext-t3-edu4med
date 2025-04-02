@@ -5,16 +5,18 @@
 </br>Visão geral da interação do usuário com as funcionalidades que fazem parte do sistema sociotécnico (protótipo de telas).
 
 ### Tela de Cadastro de conta:
-![CadastroConta](https://github.com/user-attachments/assets/ddd64688-f41a-4ddd-9494-f06d717a6547)
+![image](https://github.com/user-attachments/assets/67452099-0586-4b53-93bb-8d79318402d3)
 
 ### Tela de Login:
-![Login](https://github.com/user-attachments/assets/525c1889-3889-43c3-b770-6ac7affd6198)
+![image](https://github.com/user-attachments/assets/50b409c6-1cf2-408f-a3ad-3bcceb73cbc1)
 
-### Tela Home:
-![Home](https://github.com/user-attachments/assets/262c27d6-8fdd-4c03-bc37-23a4063b4cc3)
+### Tela Editais:
+![image](https://github.com/user-attachments/assets/44939f4a-753a-4f46-8959-cc5ad9c2cd2a)
 
-### Tela de Pesquisa:
-![Pesquisa](https://github.com/user-attachments/assets/fe69d98c-03b3-4a64-9ebe-1648f68038d0)
+### Tela Meus Editais:
+![image](https://github.com/user-attachments/assets/22fd7d31-83b2-4070-9800-48fe205b7563)
+
 
 ### Tela de Perfil:
-![Perfil](https://github.com/user-attachments/assets/8c23a9bf-0f55-4e86-b2da-c706a9d39dd8)
+![image](https://github.com/user-attachments/assets/13664ddf-2dd2-4f91-923c-4aa3784fe71c)
+
