@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Edu4MedBackEnd.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial : Migration
+    public partial class TableUsuarioVestibular : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -52,16 +52,60 @@ namespace Edu4MedBackEnd.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Universidade = table.Column<string>(type: "text", nullable: false),
-                    DataInicial = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    DataFinal = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    Observacoes = table.Column<string>(type: "text", nullable: true),
-                    Url = table.Column<string>(type: "text", nullable: true),
+                    Link = table.Column<string>(type: "text", nullable: true),
+                    Regiao = table.Column<string>(type: "text", nullable: true),
+                    Instituicao = table.Column<string>(type: "text", nullable: true),
+                    Vagas = table.Column<string>(type: "text", nullable: true),
+                    Fim_cadastro = table.Column<string>(type: "text", nullable: true),
+                    Fim_inscricoes = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    Data_prova = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Ativo = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Vestibulares", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "UsuariosVestibulares",
+                columns: table => new
+                {
+                    usuarioId = table.Column<int>(type: "integer", nullable: false),
+                    vestibularId = table.Column<int>(type: "integer", nullable: false),
+                    UsuarioVestibularusuarioId = table.Column<int>(type: "integer", nullable: true),
+                    UsuarioVestibularvestibularId = table.Column<int>(type: "integer", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_UsuariosVestibulares", x => new { x.usuarioId, x.vestibularId });
+                    table.ForeignKey(
+                        name: "FK_UsuariosVestibulares_UsuariosVestibulares_UsuarioVestibular~",
+                        columns: x => new { x.UsuarioVestibularusuarioId, x.UsuarioVestibularvestibularId },
+                        principalTable: "UsuariosVestibulares",
+                        principalColumns: new[] { "usuarioId", "vestibularId" });
+                    table.ForeignKey(
+                        name: "FK_UsuariosVestibulares_Usuarios_usuarioId",
+                        column: x => x.usuarioId,
+                        principalTable: "Usuarios",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_UsuariosVestibulares_Vestibulares_vestibularId",
+                        column: x => x.vestibularId,
+                        principalTable: "Vestibulares",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UsuariosVestibulares_UsuarioVestibularusuarioId_UsuarioVest~",
+                table: "UsuariosVestibulares",
+                columns: new[] { "UsuarioVestibularusuarioId", "UsuarioVestibularvestibularId" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UsuariosVestibulares_vestibularId",
+                table: "UsuariosVestibulares",
+                column: "vestibularId");
         }
 
         /// <inheritdoc />
@@ -69,6 +113,9 @@ namespace Edu4MedBackEnd.Migrations
         {
             migrationBuilder.DropTable(
                 name: "Editais");
+
+            migrationBuilder.DropTable(
+                name: "UsuariosVestibulares");
 
             migrationBuilder.DropTable(
                 name: "Usuarios");

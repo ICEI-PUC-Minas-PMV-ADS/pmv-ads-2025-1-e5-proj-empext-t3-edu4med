@@ -3882,11 +3882,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
       "projectName": "Edu4MedBackEnd",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
