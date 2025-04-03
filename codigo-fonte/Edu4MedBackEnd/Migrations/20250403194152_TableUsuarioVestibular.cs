@@ -56,7 +56,7 @@ namespace Edu4MedBackEnd.Migrations
                     Regiao = table.Column<string>(type: "text", nullable: true),
                     Instituicao = table.Column<string>(type: "text", nullable: true),
                     Vagas = table.Column<string>(type: "text", nullable: true),
-                    Fim_cadastro = table.Column<string>(type: "text", nullable: true),
+                    Link_cadastro = table.Column<string>(type: "text", nullable: true),
                     Fim_inscricoes = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Data_prova = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Ativo = table.Column<bool>(type: "boolean", nullable: false)

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Edu4MedBackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a5d16b3c55e12cc61ffb9b9d3adef2755b518b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bdb1cff2a6d82b69d7f71f68be23967aa196828")]
 [assembly: System.Reflection.AssemblyProductAttribute("Edu4MedBackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Edu4MedBackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -42,7 +42,7 @@ namespace Edu4MedBackEnd.Services
             vestibularExistente.Vagas = vestibular.Vagas;
             vestibularExistente.Ativo = vestibular.Ativo;
             vestibularExistente.Fim_cadastro = vestibular.Fim_cadastro;
-            vestibularExistente.Fim_inscricoes = vestibular.Fim_inscricoes;
+            vestibularExistente.Link_inscricoes = vestibular.Link_inscricoes;
             vestibularExistente.Data_prova = vestibular.Data_prova;
 
             await _context.SaveChangesAsync();

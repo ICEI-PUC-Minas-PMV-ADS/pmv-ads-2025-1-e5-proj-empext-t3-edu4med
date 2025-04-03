@@ -15,7 +15,7 @@ namespace Edu4MedBackEnd.Models
         public string Instituicao { get; set; } = string.Empty;
         public string Vagas { get; set; } = string.Empty;
         public string Fim_cadastro {  get; set; }= string.Empty;
-        public DateTime Fim_inscricoes { get; set; }
+        public DateTime Link_inscricoes { get; set; }
         public DateTime Data_prova {  get; set; }
         public Boolean Ativo { get; set; } = false;
         public List<UsuarioVestibular> UsuariosVestibulares { get; set; }
