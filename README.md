@@ -42,7 +42,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="codigo-fonte/README.md"> Código Fonte</a></li>
+<li><a href="[codigo-fonte/README.md](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/tree/main/codigo-fonte)"> Código Fonte</a></li>
 
 # Apresentação
 
