@@ -28,7 +28,8 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center">![Ct01](https://github.com/user-attachments/assets/c7c47d50-67b7-47a3-b5ca-a9d14726117b)
+    <td colspan="6" align="center"><img src="![Ct01](https://github.com/user-attachments/assets/dc483167-6f85-41d6-83de-39c53550eab3)
+"/>
 
 </td>
   </tr>
