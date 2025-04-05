@@ -28,7 +28,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center">![image][(https://github.com/user-attachments/assets/ef026dfb-616c-42cc-b71d-c0da73460ab4)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/Ct01.png)
+    <td colspan="6" align="center">![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/Ct01.png)
 </td>
   </tr>
 </table>
