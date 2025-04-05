@@ -1,4 +1,4 @@
-# Casos de Teste - Edu4Med
+# Planos de Testes de Software
 
 Este documento apresenta os casos de testes funcionais e não funcionais da plataforma Edu4Med, com base nos requisitos especificados e utilizando a técnica de escrita de testes com critérios de aceitação claros.
 
