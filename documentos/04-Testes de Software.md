@@ -28,7 +28,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/Ct01.png" alt="Texto Alternativo">
+    <td colspan="6" align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/Ct01.png">
 
 
 </td>
@@ -57,7 +57,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center">![image](https://github.com/user-attachments/assets/a72d2c3b-d763-4adf-92e9-9afd5118efb3)
+    <td colspan="6" align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/Ct02.png">
 
 </td>
   </tr>
@@ -85,7 +85,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center">![image](https://github.com/user-attachments/assets/1f32d7cf-be6d-42d3-b381-a6090d247579)
+    <td colspan="6" align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/Ct03.png">
 
 
 </td>
