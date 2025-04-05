@@ -1,96 +1,3 @@
-# Planos de Testes de Software
-
-Apresente os casos de testes utilizados na realização da verificação e validação da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos bem como o tratamento de erros (robustez da aplicação).
-
-### Tipo de Teste
-- **Sucesso**: Tem o objetivo de verificar se as funcionalidades funcionam corretamente.
-- **Insucesso**: Tem o objetivo de verificar se o sistema trata erros de maneira correta.
-
-#### Exemplo de Caso de Teste de Sucesso
-<table>
-  <tr>
-    <th colspan="2" width="1000">CT-001<br>Login com credenciais válidas</th>
-  </tr>
-  <tr>
-    <td width="150"><strong>Descrição</strong></td>
-    <td>Este caso de teste verifica se um usuário pode fazer login com sucesso utilizando credenciais válidas.</td>
-  </tr>
-  <tr>
-    <td><strong>Responsável Caso de Teste </strong></td>
-    <td width="430">José da Silva</td>
-  </tr>
- <tr>
-    <td><strong>Tipo do Teste</strong></td>
-    <td width="430">Sucesso</td>
-  </tr> 
-  <tr>
-    <td><strong>Requisitos associados</strong></td>
-    <td>RF-001: O funcionário deve conseguir logar no aplicativo</td>
-  </tr>
-  <tr>
-    <td><strong>Passos</strong></td>
-    <td>
-      1. Abrir o aplicativo.<br>
-      2. Inserir o CPF válido.<br>
-      3. Inserir a senha válida.<br>
-      4. Clicar no botão "Entrar".
-      </td>
-  </tr>
-    <tr>
-    <td><strong>Dados de teste</strong></td>
-    <td>
-      - <strong>CPF:</strong> Colocar CPF cadastrado na base<br>
-      - <strong>Senha:</strong> Colocar valor de senha válida
-  </tr>
-    <tr>
-    <td><strong>Critérios de êxito</strong></td>
-    <td>O sistema deve redirecionar o usuário para a página inicial do aplicativo após o login bem-sucedido.</td>
-  </tr>
-</table>
-
-#### Exemplo de Caso de Teste de Insucesso
-<table>
-  <tr>
-    <th colspan="2" width="1000">CT-001<br>Login com credenciais inválidas</th>
-  </tr>
-  <tr>
-    <td width="150"><strong>Descrição</strong></td>
-    <td>Este caso de teste verifica o tratamento de credenciais inválidas no login.</td>
-  </tr>
-  <tr>
-    <td><strong>Responsável Caso de Teste </strong></td>
-    <td width="430">José da Silva</td>
-  </tr>
- <tr>
-    <td><strong>Tipo do Teste</strong></td>
-    <td width="430">Insucesso</td>
-  </tr> 
-  <tr>
-    <td><strong>Requisitos associados</strong></td>
-    <td>RF-001: O funcionário não conseguirá logar no aplicativo</td>
-  </tr>
-  <tr>
-    <td><strong>Passos</strong></td>
-    <td>
-      1. Abrir o aplicativo.<br>
-      2. Inserir o CPF válido.<br>
-      3. Inserir a senha inválida.<br>
-      4. Clicar no botão "Entrar".
-      </td>
-  </tr>
-    <tr>
-    <td><strong>Dados de teste</strong></td>
-    <td>
-      - <strong>CPF:</strong> Colocar CPF cadastrado na base<br>
-      - <strong>Senha:</strong> Colocar senha inválida
-  </tr>
-    <tr>
-    <td><strong>Critérios de êxito</strong></td>
-    <td>O sistema deve apresentar a mensagem de login inválido.</td>
-  </tr>
-</table>
-
- 
 # Evidências de Testes de Software
 
 Apresente imagens e/ou vídeos que comprovam que um determinado teste foi executado, e o resultado esperado foi obtido. Normalmente são screenshots de telas, ou vídeos do software em funcionamento.
@@ -98,30 +5,88 @@ Apresente imagens e/ou vídeos que comprovam que um determinado teste foi execut
 ## Parte 1 - Testes Unitários
 Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes (sucesso e insucesso) criados pelo responsável pela funcionalidade. Todos os testes devem ser evidenciados.
 
-### Exemplo
+
 <table>
   <tr>
-    <th colspan="6" width="1000">CT-001<br>Login com credenciais válidas</th>
+    <th colspan="6" width="1000">CT-001<br> Cadastro de Usuário com credenciais válidas</th>
   </tr>
   <tr>
     <td width="170"><strong>Critérios de êxito</strong></td>
-    <td colspan="5">O sistema deve redirecionar o usuário para a página inicial do aplicativo após o login bem-sucedido.</td>
+    <td colspan="5">Usuário é redirecionado para a área de login ou recebe confirmação de cadastro.</td>
   </tr>
     <tr>
     <td><strong>Responsável pelo Teste</strong></td>
-    <td width="430">José da Silva </td>
+    <td width="430">Caê Moreira Euphrásio </td>
      <td width="100"><strong>Data do Teste</strong></td>
-    <td width="150">08/05/2024</td>
+    <td width="150">05/04/2025</td>
   </tr>
     <tr>
     <td width="170"><strong>Comentário</strong></td>
-    <td colspan="5">O sistema está permitindo o login corretamente.</td>
+    <td colspan="5">O sistema está permitindo o cadastro corretamente.</td>
   </tr>
   <tr>
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center"><video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e5-proj-time-sheet/assets/82043220/2e3c1722-7adc-4bd4-8b4c-3abe9ddc1b48"/></td>
+    <td colspan="6" align="center">![Ct01](https://github.com/user-attachments/assets/ef026dfb-616c-42cc-b71d-c0da73460ab4)
+</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-002<br> Cadastro de Usuário com Dados Inválidos</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">O sistema exibe mensagens de erro e não permite finalizar o cadastro.</td>
+  </tr>
+    <tr>
+    <td><strong>Responsável pelo Teste</strong></td>
+    <td width="430">Caê Moreira Euphrásio </td>
+     <td width="100"><strong>Data do Teste</strong></td>
+    <td width="150">05/04/2025</td>
+  </tr>
+    <tr>
+    <td width="170"><strong>Comentário</strong></td>
+    <td colspan="5">O sistema não permite o cadastro corretamente.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">![Ct02](https://github.com/user-attachments/assets/a72d2c3b-d763-4adf-92e9-9afd5118efb3)
+
+</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-003<br> Recuperação de Senha</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Link enviado com sucesso e senha redefinida.</td>
+  </tr>
+    <tr>
+    <td><strong>Responsável pelo Teste</strong></td>
+    <td width="430">Caê Moreira Euphrásio </td>
+     <td width="100"><strong>Data do Teste</strong></td>
+    <td width="150">05/04/2025</td>
+  </tr>
+    <tr>
+    <td width="170"><strong>Comentário</strong></td>
+    <td colspan="5">O sistema envia o link para o email adicionado corretamente.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">![Ct03](https://github.com/user-attachments/assets/1f32d7cf-be6d-42d3-b381-a6090d247579)
+
+
+</td>
   </tr>
 </table>
 
