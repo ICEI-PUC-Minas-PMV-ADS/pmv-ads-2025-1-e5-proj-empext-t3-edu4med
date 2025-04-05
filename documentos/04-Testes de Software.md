@@ -28,7 +28,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center">![Ct01](https://github.com/user-attachments/assets/ef026dfb-616c-42cc-b71d-c0da73460ab4)
+    <td colspan="6" align="center">![image](https://github.com/user-attachments/assets/ef026dfb-616c-42cc-b71d-c0da73460ab4)
 </td>
   </tr>
 </table>
@@ -55,7 +55,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center">![Ct02](https://github.com/user-attachments/assets/a72d2c3b-d763-4adf-92e9-9afd5118efb3)
+    <td colspan="6" align="center">![image](https://github.com/user-attachments/assets/a72d2c3b-d763-4adf-92e9-9afd5118efb3)
 
 </td>
   </tr>
@@ -83,7 +83,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
-    <td colspan="6" align="center">![Ct03](https://github.com/user-attachments/assets/1f32d7cf-be6d-42d3-b381-a6090d247579)
+    <td colspan="6" align="center">![image](https://github.com/user-attachments/assets/1f32d7cf-be6d-42d3-b381-a6090d247579)
 
 
 </td>
