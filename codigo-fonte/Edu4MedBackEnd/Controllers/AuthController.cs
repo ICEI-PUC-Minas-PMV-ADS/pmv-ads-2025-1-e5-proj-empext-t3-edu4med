@@ -21,12 +21,23 @@ namespace Edu4MedBackEnd.Controllers
         public async Task<IActionResult> AuthenticateAsync([FromBody] Usuario usuario)
         {
             var user = await _usuarioService.GetByEmailAsync(usuario.Email);
+
             if (user == null || user.Password != usuario.Password)
                 return Unauthorized(new { message = "Credenciais inválidas." });
 
-            var token = await _tokenService.GenerateToken(usuario);
+            var token = await _tokenService.GenerateToken(user); // Usa o usuário com roles
 
-            return Ok(new { token });
+            return Ok(new
+            {
+                token,
+                user = new
+                {
+                    id = user.Id,
+                    email = user.Email,
+                    roles = user.Role // Já pega direto do objeto user
+                }
+            });
         }
+
     }
 }
