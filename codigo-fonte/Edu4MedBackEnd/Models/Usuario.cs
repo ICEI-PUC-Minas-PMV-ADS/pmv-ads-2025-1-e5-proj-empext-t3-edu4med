@@ -6,8 +6,6 @@ namespace Edu4MedBackEnd.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Required(ErrorMessage = "O nome completo é obrigatório.")]
         public string Nome { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "O Email é obrigatório.")]
