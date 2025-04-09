@@ -7,15 +7,21 @@ import NotificationPopup from './NotificationPopup';
 
 export default function Header() {
   const navigate = useNavigate();
-  const { user, updateUser } = useAuth();
+  const { user, logout } = useAuth();
   const { toggleNotifications, notifications } = useNotifications();
   const notificationRef = useRef<HTMLDivElement>(null);
 
   const unreadCount = notifications.filter(n => !n.read).length;
 
-  const handleLogout = () => {
-    updateUser(null);
-    navigate('/');
+  const handleLogout = async () => {
+    try {
+      await logout();
+      navigate('/');
+    } catch (error) {
+      console.error('Error durante logout:', error);
+      
+      navigate('/');
+    }
   };
 
   return (
@@ -40,7 +46,7 @@ export default function Header() {
                 <BookmarkCheck className="w-5 h-5" />
                 Meus Editais
               </Link>
-              {user.role === 'admin' && (
+              {user.roles === 'Admin' && (
                 <Link 
                   to="/admin" 
                   className="text-white hover:text-[#0077B6] transition-colors flex items-center gap-1"
@@ -66,7 +72,10 @@ export default function Header() {
               <Link to="/profile">
                 <User className="text-white w-6 h-6 cursor-pointer" />
               </Link>
-              <button onClick={handleLogout}>
+              <button 
+                onClick={handleLogout}
+                className="hover:text-[#0077B6] transition-colors"
+              >
                 <LogOut className="text-white w-6 h-6 cursor-pointer" />
               </button>
             </>
