@@ -145,11 +145,11 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
 
 <table>
   <tr>
-    <th colspan="6" width="1000">CT-007<br> Alerta de Editais Próximos do Prazo</th>
+    <th colspan="6" width="1000">CT-008<br> Cadastro Manual de Editais pelo Administrador</th>
   </tr>
   <tr>
     <td width="170"><strong>Critérios de êxito</strong></td>
-    <td colspan="5">Alerta visível indicando editais com poucos dias restantes para inscrição.</td>
+    <td colspan="5">Edital aparece na listagem pública.</td>
   </tr>
     <tr>
     <td><strong>Responsável pelo Teste</strong></td>
@@ -159,7 +159,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
   </tr>
     <tr>
     <td width="170"><strong>Comentário</strong></td>
-    <td colspan="5">O sistema exibe um alerta sobre os editais com a data de inscrição próximo ao fim.</td>
+    <td colspan="5">O sistema exibe o edital na tela "Editais".</td>
   </tr>
   <tr>
     <td colspan="6" align="center"><strong>Evidência</strong></td>
