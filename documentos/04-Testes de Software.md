@@ -326,8 +326,12 @@ A fim de aumentar a qualidade da aplicação desenvolvida, cada funcionalidade d
     <td colspan="5">Usuário é autenticado e redirecionado para a tela principal do sistema.</td>
   </tr>
   <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
     <td><strong>Responsável pelo teste</strong></td>
-    <td colspan="5">Leonardo Correia de Sá e Silva</td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>05/04/2025</td>
   </tr>
   <tr>
     <td><strong>Comentário</strong></td>
@@ -345,26 +349,121 @@ A fim de aumentar a qualidade da aplicação desenvolvida, cada funcionalidade d
 
 <table>
   <tr>
-    <th colspan="6" width="1000">CT-005<br>Login com dados inválidos</th>
+    <th colspan="6" width="1000">CT-005<br>Visualização da Tabela de Oportunidades</th>
   </tr>
   <tr>
     <td width="170"><strong>Critérios de êxito</strong></td>
-    <td colspan="5">Sistema exibe mensagem de erro e não permite o acesso.</td>
+    <td colspan="5">Tabela carregada com informações organizadas por estado, cidade, edital etc.</td>
   </tr>
   <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
     <td><strong>Responsável pelo teste</strong></td>
-    <td colspan="5">Leonardo Correia de Sá e Silva</td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>02/05/2025</td>
   </tr>
   <tr>
     <td><strong>Comentário</strong></td>
-    <td colspan="5">Mensagem de erro exibida corretamente para dados inválidos.</td>
+    <td colspan="5">O sistema apresenta corretamente os dados dos editais organizados na tabela.</td>
   </tr>
   <tr>
     <td colspan="6" align="center"><strong>Evidência</strong></td>
   </tr>
   <tr>
     <td colspan="6" align="center">
-      <img src="https://github.com/user-attachments/assets/46cad054-e0e7-471d-bb0e-8e68b1e50014" alt="Evidência de login inválido">
+      <img src="https://github.com/user-attachments/assets/f71a68b4-8fb4-4944-bf90-dbe3eb624991" alt="CT-005 Evidência">
     </td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-006<br>Filtros de Busca</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Resultados atualizados de acordo com os filtros aplicados.</td>
+  </tr>
+  <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
+    <td><strong>Responsável pelo teste</strong></td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>02/05/2025</td>
+  </tr>
+  <tr>
+    <td><strong>Comentário</strong></td>
+    <td colspan="5">Filtros funcionam corretamente com resultados atualizados.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">
+      <img src="https://github.com/user-attachments/assets/60c1b930-5c4e-48cd-acd7-a8ef04137246" alt="CT-006 Evidência">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-008<br>Cadastro Manual de Editais pelo Administrador</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Edital aparece na listagem pública.</td>
+  </tr>
+  <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
+    <td><strong>Responsável pelo teste</strong></td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>02/05/2025</td>
+  </tr>
+  <tr>
+    <td><strong>Comentário</strong></td>
+    <td colspan="5">O edital foi exibido corretamente na tela pública de editais.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">
+      <img src="https://github.com/user-attachments/assets/69e5f0c2-9a54-409d-ab44-24f022e78d4f" alt="CT-008 Evidência">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-009<br>Página de FAQ</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Informações carregadas corretamente.</td>
+  </tr>
+  <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
+    <td><strong>Responsável pelo teste</strong></td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>02/05/2025</td>
+  </tr>
+  <tr>
+    <td><strong>Comentário</strong></td>
+    <td colspan="5">A página de perguntas frequentes foi exibida corretamente.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">
+      <img src="https://github.com/user-attachments/assets/847d9549-378f-49c2-b3a1-85658c9280e9" alt="CT-009 Evidência">
+    </td>
+  </tr>
+</table>
+
