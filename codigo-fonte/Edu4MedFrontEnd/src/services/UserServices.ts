@@ -7,10 +7,10 @@ export interface User {
   Senha: string;
 }
 
-const URL_DA_API = "https://localhost:44335/"; // alterar essa linha depois
+const URL_DA_API = "https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net";
 
 const api = axios.create({
-  baseURL: `${URL_DA_API}api/users`,
+  baseURL: `${URL_DA_API}api/usuarios`,
 });
 
 export const fetchUsers = async (): Promise<User[]> => {
