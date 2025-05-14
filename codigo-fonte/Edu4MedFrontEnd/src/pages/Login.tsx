@@ -21,13 +21,13 @@ const LoginForm: React.FC = () => {
   };
 
   const handleSendEmail = () => {
-    setConfirmationMessage(Uma nova senha foi enviada para o seu e-mail: ${emailInput});
+    setConfirmationMessage(`Uma nova senha foi enviada para o seu e-mail: ${emailInput}`);
   };
 
   const handleLoginSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
     try {
-      const response = await fetch('https://localhost:44335/api/auth/login', {
+      const response = await fetch('https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -35,19 +35,22 @@ const LoginForm: React.FC = () => {
         body: JSON.stringify({ email, password }),
       });
       if (response.ok) {
-        const token = await response.json();
+        const data = await response.json();
+        const { token, user } = data; // Supondo que a API retorne o token e os dados do usuário
         localStorage.setItem('authToken', token);
-        // login(user, token);
-        // Navegar para a próxima página
+
+        // Agora salvamos o token e as informações do usuário no contexto
+        login(user, token); // Salva no AuthContext
+
+        // Navega para a próxima página
         navigate('/editais');
-        console.log("Cadastro realizado", token);
-      } else {
+    } else {
         setError('Credenciais inválidas. Por favor, tente novamente.');
-      }
-    } catch (error) {
-      setError('Ocorreu um erro ao tentar fazer login. Tente novamente mais tarde.');
     }
-  };
+} catch (error) {
+    setError('Ocorreu um erro ao tentar fazer login. Tente novamente mais tarde.');
+}
+};
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
