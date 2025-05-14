@@ -15,7 +15,7 @@ export interface Vestibular {
 }
  
 // URL base da API de Vestibulares
-const URL_DA_API = "https://localhost:44335/"; // lembre-se de ajustar para produção depois
+const URL_DA_API = "https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net"; // lembre-se de ajustar para produção depois
  
 const api = axios.create({
   baseURL: `${URL_DA_API}api/Vestibular`,
