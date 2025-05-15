@@ -78,29 +78,6 @@ namespace Edu4MedBackEnd.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("Edu4MedBackEnd.Models.UsuarioVestibular", b =>
-                {
-                    b.Property<int>("usuarioId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("vestibularId")
-                        .HasColumnType("integer");
-
-                    b.Property<int?>("UsuarioVestibularusuarioId")
-                        .HasColumnType("integer");
-
-                    b.Property<int?>("UsuarioVestibularvestibularId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("usuarioId", "vestibularId");
-
-                    b.HasIndex("vestibularId");
-
-                    b.HasIndex("UsuarioVestibularusuarioId", "UsuarioVestibularvestibularId");
-
-                    b.ToTable("UsuariosVestibulares");
-                });
-
             modelBuilder.Entity("Edu4MedBackEnd.Models.Vestibular", b =>
                 {
                     b.Property<int>("Id")
@@ -112,72 +89,25 @@ namespace Edu4MedBackEnd.Migrations
                     b.Property<bool>("Ativo")
                         .HasColumnType("boolean");
 
-                    b.Property<DateTime>("Data_prova")
+                    b.Property<DateTime>("DataFinal")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Fim_cadastro")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Instituicao")
-                        .HasColumnType("text");
-
-                    b.Property<string>("Link")
-                        .HasColumnType("text");
-
-                    b.Property<DateTime>("Link_inscricoes")
+                    b.Property<DateTime>("DataInicial")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Regiao")
+                    b.Property<string>("Observacoes")
                         .HasColumnType("text");
 
                     b.Property<string>("Universidade")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Vagas")
+                    b.Property<string>("Url")
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
                     b.ToTable("Vestibulares");
-                });
-
-            modelBuilder.Entity("Edu4MedBackEnd.Models.UsuarioVestibular", b =>
-                {
-                    b.HasOne("Edu4MedBackEnd.Models.Usuario", "Usuario")
-                        .WithMany("UsuariosVestibulares")
-                        .HasForeignKey("usuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Edu4MedBackEnd.Models.Vestibular", "Vestibular")
-                        .WithMany("UsuariosVestibulares")
-                        .HasForeignKey("vestibularId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Edu4MedBackEnd.Models.UsuarioVestibular", null)
-                        .WithMany("UsuariosVestibulares")
-                        .HasForeignKey("UsuarioVestibularusuarioId", "UsuarioVestibularvestibularId");
-
-                    b.Navigation("Usuario");
-
-                    b.Navigation("Vestibular");
-                });
-
-            modelBuilder.Entity("Edu4MedBackEnd.Models.Usuario", b =>
-                {
-                    b.Navigation("UsuariosVestibulares");
-                });
-
-            modelBuilder.Entity("Edu4MedBackEnd.Models.UsuarioVestibular", b =>
-                {
-                    b.Navigation("UsuariosVestibulares");
-                });
-
-            modelBuilder.Entity("Edu4MedBackEnd.Models.Vestibular", b =>
-                {
-                    b.Navigation("UsuariosVestibulares");
                 });
 #pragma warning restore 612, 618
         }

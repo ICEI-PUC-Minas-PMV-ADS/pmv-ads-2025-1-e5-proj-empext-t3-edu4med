@@ -1,97 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\models\\vestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\vestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\services\\vestibularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\vestibularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\migrations\\20250403194152_tableusuariovestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:migrations\\20250403194152_tableusuariovestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403193442_TableUsuarioVestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250403193442_TableUsuarioVestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403193345_TableUsuarioVestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250403193345_TableUsuarioVestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403191549_NomeDaMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250403191549_NomeDaMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213310_AlterandoUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\services\\ivestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\ivestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\models\\usuariovestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\usuariovestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\models\\edital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\edital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\controllers\\vestibularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:controllers\\vestibularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\edu4medbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\models\\edital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\edital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\controllers\\vestibularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:controllers\\vestibularcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\models\\vestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\vestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\services\\ivestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\ivestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\services\\vestibularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\vestibularservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213310_AlterandoUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250315213310_AlterandoUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\edu4medbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:edu4medbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\edu4medbackend\\migrations\\20250403220659_hotfixtabelavestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:migrations\\20250403220659_hotfixtabelavestibular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|c:\\users\\user\\source\\repos\\edu4medbackend\\migrations\\20250315213512_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BC647E0-FFB5-4843-A711-7ED8E7E6762B}|Edu4MedBackEnd.csproj|solutionrelative:migrations\\20250315213512_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -101,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 204,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,198 +87,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCIAAAAhAAAA",
+              "Title": "VestibularController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Controllers\\VestibularController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VestibularController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Controllers\\VestibularController.cs",
+              "RelativeToolTip": "Controllers\\VestibularController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T20:21:26.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T20:55:33.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAgwGwAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:37:48.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T18:53:42.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T19:06:51.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "Services\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\ITokenService.cs",
-              "RelativeToolTip": "Services\\ITokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:34:05.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250403220659_HotFixTabelaVestibular.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403220659_HotFixTabelaVestibular.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250403220659_HotFixTabelaVestibular.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403220659_HotFixTabelaVestibular.cs",
-              "RelativeToolTip": "Migrations\\20250403220659_HotFixTabelaVestibular.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:07:00.061Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "Services\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\IUsuarioService.cs",
-              "RelativeToolTip": "Services\\IUsuarioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:55:16.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vestibular.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\Vestibular.cs",
-              "RelativeDocumentMoniker": "Models\\Vestibular.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\Vestibular.cs",
-              "RelativeToolTip": "Models\\Vestibular.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA8wA0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:19:15.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UsuarioVestibular.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\UsuarioVestibular.cs",
-              "RelativeDocumentMoniker": "Models\\UsuarioVestibular.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\UsuarioVestibular.cs",
-              "RelativeToolTip": "Models\\UsuarioVestibular.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T18:48:17.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250403194152_TableUsuarioVestibular.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403194152_TableUsuarioVestibular.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250403194152_TableUsuarioVestibular.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403194152_TableUsuarioVestibular.cs",
-              "RelativeToolTip": "Migrations\\20250403194152_TableUsuarioVestibular.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwDAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:41:52.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "VestibularService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\VestibularService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\VestibularService.cs",
               "RelativeDocumentMoniker": "Services\\VestibularService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\VestibularService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\VestibularService.cs",
               "RelativeToolTip": "Services\\VestibularService.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAwwDAAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T20:08:17.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "Services\\UsuarioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAABAAAAA",
+              "DocumentIndex": 5,
+              "Title": "Vestibular.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Models\\Vestibular.cs",
+              "RelativeDocumentMoniker": "Models\\Vestibular.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Models\\Vestibular.cs",
+              "RelativeToolTip": "Models\\Vestibular.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T19:09:48.065Z"
+              "WhenOpened": "2025-03-13T21:40:18.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IVestibular.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\IVestibular.cs",
-              "RelativeDocumentMoniker": "Services\\IVestibular.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\IVestibular.cs",
-              "RelativeToolTip": "Services\\IVestibular.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T14:32:37.908Z"
+              "WhenOpened": "2025-03-14T19:06:51.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Services\\TokenService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Services\\TokenService.cs",
-              "RelativeToolTip": "Services\\TokenService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T18:51:21.649Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA5wBQAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T19:50:11.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "Edital.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\Edital.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Models\\Edital.cs",
               "RelativeDocumentMoniker": "Models\\Edital.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Models\\Edital.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Models\\Edital.cs",
               "RelativeToolTip": "Models\\Edital.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,87 +146,152 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "VestibularController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Controllers\\VestibularController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VestibularController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Controllers\\VestibularController.cs",
-              "RelativeToolTip": "Controllers\\VestibularController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAgAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T20:55:33.804Z"
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T12:50:00.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T12:50:00.755Z"
+              "DocumentIndex": 7,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Services\\UsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T19:09:48.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T20:21:26.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAEwCEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:51:21.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IVestibular.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\IVestibular.cs",
+              "RelativeDocumentMoniker": "Services\\IVestibular.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\IVestibular.cs",
+              "RelativeToolTip": "Services\\IVestibular.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T14:32:37.908Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\IUsuarioService.cs",
+              "RelativeToolTip": "Services\\IUsuarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:55:16.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T19:50:11.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Services\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T18:34:05.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAF8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:37:48.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "20250315213310_AlterandoUsuario.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213310_AlterandoUsuario.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213310_AlterandoUsuario.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250315213310_AlterandoUsuario.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213310_AlterandoUsuario.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213310_AlterandoUsuario.cs",
+              "RelativeToolTip": "Migrations\\20250315213310_AlterandoUsuario.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T21:33:10.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 16,
+              "Title": "20250315213512_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213512_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250315213512_Initial.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Migrations\\20250315213512_Initial.cs",
+              "RelativeToolTip": "Migrations\\20250315213512_Initial.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T21:35:13.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Edu4MedBackEnd.csproj",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
               "RelativeDocumentMoniker": "Edu4MedBackEnd.csproj",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\Edu4MedBackEnd\\Edu4MedBackEnd.csproj",
               "RelativeToolTip": "Edu4MedBackEnd.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-03-13T21:31:14.342Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250403193442_TableUsuarioVestibular.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403193442_TableUsuarioVestibular.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250403193442_TableUsuarioVestibular.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403193442_TableUsuarioVestibular.cs",
-              "RelativeToolTip": "Migrations\\20250403193442_TableUsuarioVestibular.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAgwAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:34:42.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250403193345_TableUsuarioVestibular.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403193345_TableUsuarioVestibular.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250403193345_TableUsuarioVestibular.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403193345_TableUsuarioVestibular.cs",
-              "RelativeToolTip": "Migrations\\20250403193345_TableUsuarioVestibular.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:33:45.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250403191549_NomeDaMigration.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403191549_NomeDaMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250403191549_NomeDaMigration.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\edu4med\\pmv-ads-2025-1-e5-proj-empext-t3-edu4med\\codigo-fonte\\Edu4MedBackEnd\\Migrations\\20250403191549_NomeDaMigration.cs",
-              "RelativeToolTip": "Migrations\\20250403191549_NomeDaMigration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:15:49.752Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }

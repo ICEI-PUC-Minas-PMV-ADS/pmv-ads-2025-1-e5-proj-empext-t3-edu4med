@@ -18,7 +18,7 @@ namespace Edu4MedBackEnd.Services
             return await _context.Vestibulares.ToListAsync();
         }
 
-        public async Task<Vestibular> GetByIdAsync(int id)
+        public async Task<Vestibular?> GetByIdAsync(int id)
         {
             return await _context.Vestibulares.FindAsync(id);
         }
@@ -36,14 +36,11 @@ namespace Edu4MedBackEnd.Services
             if (vestibularExistente == null) return false;
 
             vestibularExistente.Universidade = vestibular.Universidade;
-            vestibularExistente.Link = vestibular.Link;
-            vestibularExistente.Regiao = vestibular.Regiao;
-            vestibularExistente.Instituicao = vestibular.Instituicao;
-            vestibularExistente.Vagas = vestibular.Vagas;
+            vestibularExistente.DataInicial = vestibular.DataInicial;
+            vestibularExistente.DataFinal = vestibular.DataFinal;
+            vestibularExistente.Observacoes = vestibular.Observacoes;
+            vestibularExistente.Url = vestibular.Url;
             vestibularExistente.Ativo = vestibular.Ativo;
-            vestibularExistente.Fim_cadastro = vestibular.Fim_cadastro;
-            vestibularExistente.Link_inscricoes = vestibular.Link_inscricoes;
-            vestibularExistente.Data_prova = vestibular.Data_prova;
 
             await _context.SaveChangesAsync();
             return true;

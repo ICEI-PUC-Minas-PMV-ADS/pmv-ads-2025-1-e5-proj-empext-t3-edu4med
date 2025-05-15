@@ -9,20 +9,7 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Adiciona política de CORS
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("CorsPolicy", policy =>
-    {
-        policy.WithOrigins("http://localhost:5173")
-              .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials(); // só se usar autenticação com cookies (JWT não precisa)
-    });
-});
-
 // Add services to the container.
-
 
 builder.Services.AddControllers();
 
@@ -61,7 +48,6 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IVestibularService, VestibularService>();
 builder.Services.AddScoped<IUsuarioService, UsuarioService>();
-
 
 // Configuração do JWT
 var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
@@ -105,8 +91,6 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseHttpsRedirection();
-
-app.UseCors("CorsPolicy");
 
 app.UseAuthentication();
 app.UseAuthorization();
