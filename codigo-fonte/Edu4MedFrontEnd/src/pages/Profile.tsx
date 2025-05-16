@@ -30,7 +30,7 @@ export default function Profile() {
     if (!token || !user) return;
 
     try {
-      const response = await fetch(https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/usuario/${user.id}, {
+      const response = await fetch(`https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/usuario/${user.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
