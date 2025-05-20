@@ -47,7 +47,7 @@ export default function EditalDetails() {
   const { user } = useAuth();
   const [showRedirectModal, setShowRedirectModal] = useState(false);
   const [showRegistrationModal, setShowRegistrationModal] = useState(false);
-  
+
   const edital = editais.find(e => e.id === id);
 
   if (!edital || !user) {
@@ -67,6 +67,11 @@ export default function EditalDetails() {
         </div>
       </div>
     );
+  }
+
+  function parseDateBRtoISO(dateStr: string) {
+    const [day, month, year] = dateStr.split('/');
+    return new Date(Number(year), Number(month) - 1, Number(day));
   }
 
   const handleRegistrationClick = () => {
@@ -106,22 +111,23 @@ export default function EditalDetails() {
           alt={edital.title}
           className="w-full h-64 object-cover"
         />
-        
+
         <div className="p-6">
           <div className="flex justify-between items-start mb-4">
             <h1 className="text-3xl font-bold text-gray-900">{edital.title}</h1>
-            <button
-              onClick={() => toggleFavorite(edital.id)}
-              className="p-2 hover:bg-gray-100 rounded-full transition-colors"
-            >
-              <Heart
-                className={`w-6 h-6 ${
-                  edital.isFavorited
-                    ? 'fill-red-500 text-red-500'
-                    : 'text-gray-400'
-                }`}
-              />
-            </button>
+            {edital.status !== 'closed' && (
+              <button
+                onClick={() => toggleFavorite(edital.id)}
+                className="p-2 hover:bg-gray-100 rounded-full transition-colors"
+              >
+                <Heart
+                  className={`w-6 h-6 ${edital.isFavorited
+                      ? 'fill-red-500 text-red-500'
+                      : 'text-gray-400'
+                    }`}
+                />
+              </button>
+            )}
           </div>
 
           <div className="space-y-4 mb-6">
@@ -131,7 +137,9 @@ export default function EditalDetails() {
             </div>
             <div className="flex items-center text-gray-600">
               <Calendar className="w-5 h-5 mr-2" />
-              <span>Data limite: {new Date(edital.closingDate).toLocaleDateString()}</span>
+              <span>
+                Data limite: {parseDateBRtoISO(edital.closingDate).toLocaleDateString()}
+              </span>
             </div>
             <div className="flex items-center text-gray-600">
               <MapPin className="w-5 h-5 mr-2" />
@@ -145,20 +153,22 @@ export default function EditalDetails() {
           </div>
 
           <div className="flex items-center justify-between">
-            <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-              edital.status === 'open'
-                ? 'bg-green-100 text-green-800'
-                : 'bg-red-100 text-red-800'
-            }`}>
-              {edital.status === 'open' ? 'Inscrições Abertas' : 'Inscrições Encerradas'}
+            <span
+              className={`px-3 py-1 rounded-full text-sm font-medium ${edital.status === 'open'
+                  ? 'bg-green-100 text-green-800'
+                  : 'bg-red-100 text-red-800'
+                }`}
+            >
+              {edital.status === 'open'
+                ? 'Inscrições Abertas'
+                : 'Inscrições Encerradas'}
             </span>
-            
+
             {edital.status === 'open' && (
               <button
                 onClick={handleRegistrationClick}
-                className={`bg-[#00B4D8] text-white px-6 py-2 rounded-lg hover:bg-[#0077B6] transition-colors flex items-center gap-2 ${
-                  edital.isRegistered ? 'opacity-50 cursor-not-allowed' : ''
-                }`}
+                className={`bg-[#00B4D8] text-white px-6 py-2 rounded-lg hover:bg-[#0077B6] transition-colors flex items-center gap-2 ${edital.isRegistered ? 'opacity-50 cursor-not-allowed' : ''
+                  }`}
                 disabled={edital.isRegistered}
               >
                 {edital.isRegistered ? (
