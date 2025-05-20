@@ -1,3 +1,4 @@
+// EditalSection.tsx
 import React, { useState } from 'react';
 import EditalCard from './EditalCard';
 import { ChevronLeft, ChevronRight, Grid3x3, List } from 'lucide-react';
@@ -5,13 +6,16 @@ import { ChevronLeft, ChevronRight, Grid3x3, List } from 'lucide-react';
 interface EditalSectionProps {
   title: string;
   editais: Array<{
-    id: string;
-    title: string;
-    institution: string;
-    imageUrl: string;
-    location: string;
-    closingDate: string;
-    status: 'open' | 'closed';
+    id: number;
+    ativo: boolean;
+    fim_cadastro: string;
+    instituicao: string;
+    link: string;
+    link_inscricoes: string;
+    regiao: string;
+    universidade: string;
+    usuariosVestibulares: any;
+    vagas: string;
     isFavorited?: boolean;
     registrationStatus?: string;
   }>;
@@ -19,13 +23,24 @@ interface EditalSectionProps {
 
 export default function EditalSection({ title, editais }: EditalSectionProps) {
   const [isGridView, setIsGridView] = useState(false);
+
   const scrollContainer = (direction: 'left' | 'right') => {
-    const container = document.getElementById(scroll-${title});
+    const container = document.getElementById(`scroll-${title}`);
     if (container) {
       const scrollAmount = direction === 'left' ? -300 : 300;
       container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
     }
   };
+
+  // Ordena os editais colocando os inativos por último apenas na seção "Todos Editais"
+  const editaisOrdenados =
+    title === "Todos Editais"
+      ? [...editais].sort((a, b) => {
+        if (!a.ativo && b.ativo) return 1;
+        if (a.ativo && !b.ativo) return -1;
+        return 0;
+      })
+      : editais;
 
   return (
     <div className="my-8">
@@ -45,10 +60,10 @@ export default function EditalSection({ title, editais }: EditalSectionProps) {
           </button>
         )}
       </div>
-      
+
       {isGridView && title === "Todos Editais" ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
-          {editais.map((edital) => (
+          {editaisOrdenados.map((edital) => (
             <EditalCard
               key={edital.id}
               {...edital}
@@ -64,13 +79,13 @@ export default function EditalSection({ title, editais }: EditalSectionProps) {
           >
             <ChevronLeft className="w-6 h-6 text-gray-600" />
           </button>
-          
+
           <div
-            id={scroll-${title}}
+            id={`scroll-${title}`}
             className="flex overflow-x-auto gap-4 px-4 pb-4 scrollbar-hide"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
-            {editais.map((edital) => (
+            {editaisOrdenados.map((edital) => (
               <EditalCard
                 key={edital.id}
                 {...edital}
