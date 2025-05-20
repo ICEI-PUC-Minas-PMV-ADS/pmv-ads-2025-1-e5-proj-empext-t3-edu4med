@@ -30,27 +30,37 @@ export default function EditalCard({
 }: EditalCardProps) {
   const { toggleFavorite } = useEditais();
 
+  function formatDate(dateStr: string) {
+    const [day, month, year] = dateStr.split('/');
+    const date = new Date(Number(year), Number(month) - 1, Number(day));
+    return date.toLocaleDateString('pt-BR');
+  }
+
   return (
-    <div className="flex-shrink-0 w-72 bg-white rounded-lg shadow-md overflow-hidden mx-2">
+    <div className="flex-shrink-0 w-full sm:w-72 bg-white rounded-lg shadow-md overflow-hidden mx-0 sm:mx-2 hover:shadow-lg transition-shadow">
       <img src={imageUrl} alt={title} className="w-full h-40 object-cover" />
       <div className="p-4">
         <div className="flex justify-between items-start mb-2">
           <h3 className="font-semibold text-lg">{title}</h3>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-              toggleFavorite(id);
-            }}
-            className="ml-2 flex-shrink-0"
-          >
-            <Heart
-              className={`w-6 h-6 ${
-                isFavorited
-                  ? 'fill-red-500 text-red-500'
-                  : 'text-gray-400 hover:text-red-500'
-              }`}
-            />
-          </button>
+          
+          {status === 'open' && (
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                toggleFavorite(id);
+              }}
+              className="ml-2 flex-shrink-0"
+              aria-label={isFavorited ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
+            >
+              <Heart
+                className={`w-6 h-6 ${
+                  isFavorited
+                    ? 'fill-red-500 text-red-500'
+                    : 'text-gray-400 hover:text-red-500'
+                }`}
+              />
+            </button>
+          )}
         </div>
         
         <p className="text-gray-600 mb-3">{institution}</p>
@@ -62,7 +72,7 @@ export default function EditalCard({
           </div>
           <div className="flex items-center text-gray-600 text-sm">
             <Calendar className="w-4 h-4 mr-1" />
-            <span>Até {new Date(closingDate).toLocaleDateString()}</span>
+            <span>Até {formatDate(closingDate)}</span>
           </div>
         </div>
 
