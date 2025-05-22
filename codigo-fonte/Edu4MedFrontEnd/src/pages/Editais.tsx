@@ -5,10 +5,15 @@ import EditalSection from '../components/EditalSection';
 import { useEditais } from '../context/EditaisContext';
 import { ESTADOS_BRASIL } from '../components/constants';
 
+function parseDateFromString(dateStr: string): Date {
+  const [day, month, year] = dateStr.split('/');
+  return new Date(Number(year), Number(month) - 1, Number(day));
+}
+
 const filterOptions = [
   {
     name: 'location',
-    label: 'Estado',
+    label: 'Região',
     type: 'select' as const,
     placeholder: 'Selecione o estado',
     options: ESTADOS_BRASIL
@@ -25,15 +30,20 @@ export default function Editais() {
   const { getFilteredEditais, filters, setFilters, clearFilters } = useEditais();
 
   // Get editais filtered by user's location for "Para Você" section
-  const paraVoce = getFilteredEditais(true).filter(edital => edital.status === 'open');
+  //const paraVoce = getFilteredEditais(true).filter(edital => edital.status === 'open');
 
   // Get editais filtered by manual filters for other sections
   const filteredEditais = getFilteredEditais(false);
-  
-  const tempoEsgotando = filteredEditais.filter(
-    edital => edital.status === 'open' && 
-    new Date(edital.closingDate).getTime() - new Date().getTime() < 7 * 24 * 60 * 60 * 1000
-  );
+
+  const agora = new Date();
+  const seteDias = 7 * 24 * 60 * 60 * 1000;
+
+  const tempoEsgotando = filteredEditais.filter(edital => {
+    if (edital.status !== 'open') return false;
+    const dataLimite = parseDateFromString(edital.closingDate);
+    const diff = dataLimite.getTime() - agora.getTime();
+    return diff > 0 && diff <= seteDias;
+  });
 
   return (
     <main className="max-w-7xl mx-auto py-6">
@@ -45,8 +55,8 @@ export default function Editais() {
         onClearFilters={clearFilters}
         filterOptions={filterOptions}
       />
-      
-      <EditalSection title="Para você" editais={paraVoce} />
+
+      {/<EditalSection title="Para você" editais={paraVoce} />/}
       <EditalSection title="Tempo se esgotando" editais={tempoEsgotando} />
       <EditalSection title="Todos Editais" editais={filteredEditais} />
     </main>
