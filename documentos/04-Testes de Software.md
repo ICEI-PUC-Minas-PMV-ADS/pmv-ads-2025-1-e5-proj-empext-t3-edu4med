@@ -236,7 +236,7 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
     <td><strong>Responsável pelo Teste</strong></td>
     <td width="430">Caê Moreira Euphrásio </td>
      <td width="100"><strong>Data do Teste</strong></td>
-    <td width="150">02/05/2025</td>
+    <td width="150">26/05/2025</td>
   </tr>
     <tr>
     <td width="170"><strong>Comentário</strong></td>
@@ -247,6 +247,33 @@ Cada funcionalidade desenvolvida deve ser testada utilizando os casos de testes 
   </tr>
   <tr>
     <td colspan="6" align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/ct-010.png">
+</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-011<br> Seção de Contato</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Métricas exibidas corretamente e com atualização conforme os acessos.</td>
+  </tr>
+    <tr>
+    <td><strong>Responsável pelo Teste</strong></td>
+    <td width="430">Caê Moreira Euphrásio </td>
+     <td width="100"><strong>Data do Teste</strong></td>
+    <td width="150">26/05/2025</td>
+  </tr>
+    <tr>
+    <td width="170"><strong>Comentário</strong></td>
+    <td colspan="5">O sistema exibe um número de contato para que usuários possam enviar dúvidas ou sugestões.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med/blob/main/documentos/img/ct-011.png">
 </td>
   </tr>
 </table>
