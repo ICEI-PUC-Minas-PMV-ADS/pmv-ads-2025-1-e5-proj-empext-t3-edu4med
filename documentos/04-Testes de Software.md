@@ -463,6 +463,36 @@ A fim de aumentar a qualidade da aplicação desenvolvida, cada funcionalidade d
 
 <table>
   <tr>
+    <th colspan="6" width="1000">CT-007<br>Alerta de Editais Próximos do Prazo</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Alerta visível indicando editais com poucos dias restantes para inscrição.</td>
+  </tr>
+  <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
+    <td><strong>Responsável pelo teste</strong></td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>28/05/2025</td>
+  </tr>
+  <tr>
+    <td><strong>Comentário</strong></td>
+    <td colspan="5">O sistema exibe corretamente o alerta de prazo final para editais próximos do vencimento.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">
+      <img src="https://github.com/user-attachments/assets/39bbdddb-307d-4b9f-bc3e-77baafd586a0" alt="CT-007 Evidência">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
     <th colspan="6" width="1000">CT-008<br>Cadastro Manual de Editais pelo Administrador</th>
   </tr>
   <tr>
@@ -521,3 +551,62 @@ A fim de aumentar a qualidade da aplicação desenvolvida, cada funcionalidade d
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-010<br>Seção de Contato</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Mensagem enviada com sucesso e resposta automática de confirmação.</td>
+  </tr>
+  <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
+    <td><strong>Responsável pelo teste</strong></td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>28/05/2025</td>
+  </tr>
+  <tr>
+    <td><strong>Comentário</strong></td>
+    <td colspan="5">Mensagem enviada corretamente e feedback automático foi exibido.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">
+      <img src="https://github.com/user-attachments/assets/4e190159-a739-4745-93fa-0928f2afbe5e" alt="CT-010 Evidência">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="6" width="1000">CT-011<br>Métricas de Acesso</th>
+  </tr>
+  <tr>
+    <td width="170"><strong>Critérios de êxito</strong></td>
+    <td colspan="5">Métricas exibidas corretamente e com atualização conforme os acessos.</td>
+  </tr>
+  <tr>
+    <td><strong>Responsável pela funcionalidade</strong></td>
+    <td>Caê Moreira Euphrásio</td>
+    <td><strong>Responsável pelo teste</strong></td>
+    <td>Leonardo Correia de Sá e Silva</td>
+    <td><strong>Data do teste</strong></td>
+    <td>28/05/2025</td>
+  </tr>
+  <tr>
+    <td><strong>Comentário</strong></td>
+    <td colspan="5">As métricas aparecem corretamente conforme o uso da aplicação.</td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"><strong>Evidência</strong></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center">
+      <img src="https://github.com/user-attachments/assets/141538dc-040f-4892-aa04-04f4ee2520ee" alt="CT-011 Evidência">
+    </td>
+  </tr>
+</table>
