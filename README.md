@@ -14,6 +14,8 @@ O projeto tem como objetivo criar uma plataforma que liste automaticamente oport
 
 Objetivo: Automatizar o processo de Web Scraping para coletar informações de uma fonte e apresentá-las na plataforma que será desenvolvida.
 
+Link para acessar o projeto: <a href="https://edu4med.netlify.app/">https://edu4med.netlify.app/</a>
+
 ## Integrantes
 
 * Caê Moreira Euphrásio
