@@ -4,7 +4,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { useNotifications } from '../context/NotificationContext';
 import NotificationPopup from './NotificationPopup';
-import LogoEdu4Med from '../Imgs/logobrancaedu4med.png';
 
 export default function Header() {
   const navigate = useNavigate();
@@ -28,32 +27,28 @@ export default function Header() {
   return (
     <header className="bg-[#00B4D8] p-4 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <Link to="/" className="flex items-center h-10">
-          <img
-            src={LogoEdu4Med}
-            alt="Logo Edu4Med"
-            className="h-full w-auto object-contain"
-          />
+        <Link to="/" className="text-white text-2xl font-bold">
+          edu<span className="text-[#0077B6]">4MED</span>
         </Link>
         <div className="flex items-center gap-6">
           {user ? (
             <>
-              <Link
-                to="/editais"
+              <Link 
+                to="/editais" 
                 className="text-white hover:text-[#0077B6] transition-colors"
               >
                 Editais
               </Link>
-              <Link
-                to="/meus-editais"
+              <Link 
+                to="/meus-editais" 
                 className="text-white hover:text-[#0077B6] transition-colors flex items-center gap-1"
               >
                 <BookmarkCheck className="w-5 h-5" />
                 Meus Editais
               </Link>
               {user.roles === 'Admin' && (
-                <Link
-                  to="/admin"
+                <Link 
+                  to="/admin" 
                   className="text-white hover:text-[#0077B6] transition-colors flex items-center gap-1"
                 >
                   <LayoutDashboard className="w-5 h-5" />
@@ -77,7 +72,7 @@ export default function Header() {
               <Link to="/profile">
                 <User className="text-white w-6 h-6 cursor-pointer" />
               </Link>
-              <button
+              <button 
                 onClick={handleLogout}
                 className="hover:text-[#0077B6] transition-colors"
               >
@@ -86,20 +81,20 @@ export default function Header() {
             </>
           ) : (
             <>
-              <Link
-                to="/editais"
+              <Link 
+                to="/editais" 
                 className="text-white hover:text-[#0077B6] transition-colors"
               >
                 Editais
               </Link>
-              <Link
-                to="/login"
+              <Link 
+                to="/login" 
                 className="text-white hover:text-[#0077B6] transition-colors"
               >
                 Login
               </Link>
-              <Link
-                to="/register"
+              <Link 
+                to="/register" 
                 className="bg-white text-[#00B4D8] px-4 py-2 rounded-lg hover:bg-gray-100 transition-colors"
               >
                 Cadastre-se

@@ -8,7 +8,6 @@ import EditalDetails from '../pages/EditalDetails';
 import Profile from '../pages/Profile';
 import MeusEditais from '../pages/MeusEditais';
 import AdminDashboard from '../pages/AdminDashboard';
-import ErrorPage from '../pages/ErrorPage';
 import { useAuth } from '../context/AuthContext';
 
 interface PrivateRouteProps {
@@ -76,9 +75,6 @@ export default function AppRoutes() {
           </PrivateRoute>
         }
       />
-
-      {/* Rota de erro: precisa ficar por último */}
-      <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
 }

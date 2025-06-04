@@ -4,29 +4,6 @@ import { Search, BookOpen, Award, Clock, Users } from 'lucide-react';
 import PartnersSection from '../components/PartnersSection';
 import FAQSection from '../components/FAQSection';
 
-function FeatureCard({ icon, title, description }: {
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-}) {
-  return (
-    <div className="bg-white p-6 rounded-lg shadow-md">
-      <div className="mb-4">{icon}</div>
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-gray-600">{description}</p>
-    </div>
-  );
-}
-
-function StatCard({ number, label }: { number: string; label: string }) {
-  return (
-    <div>
-      <div className="text-4xl font-bold text-white mb-2">{number}</div>
-      <div className="text-white-600">{label}</div>
-    </div>
-  );
-}
-
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -98,9 +75,9 @@ export default function LandingPage() {
       <PartnersSection />
 
       {/* Statistics Section */}
-      <div className="bg-gradient-to-r from-[#00B4D8] to-[#0077B6] py-20">
+      <div className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 text-center text-white">
+          <div className="grid md:grid-cols-3 gap-8 text-center">
             <StatCard number="1000+" label="Editais Publicados" />
             <StatCard number="5000+" label="Usuários Ativos" />
             <StatCard number="100+" label="Instituições Parceiras" />
@@ -129,6 +106,29 @@ export default function LandingPage() {
           </Link>
         </div>
       </div>
+    </div>
+  );
+}
+
+function FeatureCard({ icon, title, description }: {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}) {
+  return (
+    <div className="bg-white p-6 rounded-lg shadow-md">
+      <div className="mb-4">{icon}</div>
+      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <p className="text-gray-600">{description}</p>
+    </div>
+  );
+}
+
+function StatCard({ number, label }: { number: string; label: string }) {
+  return (
+    <div>
+      <div className="text-4xl font-bold text-[#00B4D8] mb-2">{number}</div>
+      <div className="text-gray-600">{label}</div>
     </div>
   );
 }

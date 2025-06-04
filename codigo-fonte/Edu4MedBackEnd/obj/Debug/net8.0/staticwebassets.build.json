@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "+FtKRtPuW9SadeUOqgoU677903gsuBO39471svae9ho=",
-  "Source": "Edu4MedBackEnd",
-  "BasePath": "_content/Edu4MedBackEnd",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"kZGrBptnYAWq8V7nSnfT1soKVDZ0CJhgToDneEcz+LY=","Source":"Edu4MedBackEnd","BasePath":"_content/Edu4MedBackEnd","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

@@ -36,7 +36,7 @@ const LoginForm: React.FC = () => {
       });
       if (response.ok) {
         const data = await response.json();
-        const { token, user } = data; // Supondo que a API retorne o token e os dados do usuário
+        const { token, usuario: user } = data; // Supondo que a API retorne o token e os dados do usuário
         localStorage.setItem('authToken', token);
 
         // Agora salvamos o token e as informações do usuário no contexto

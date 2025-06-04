@@ -69,7 +69,7 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
         const parts = dateString.split('/');
         if (parts.length === 3) {
           // Assume formato mm/dd/yyyy
-          date = new Date(${parts[2]}-${parts[0]}-${parts[1]});
+          date = new Date(`${parts[2]}-${parts[0]}-${parts[1]}`);
         }
       }
 
@@ -171,7 +171,7 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
     const parts = dateStr.split('/');
     if (parts.length === 3) {
       // dd/mm/yyyy → yyyy-mm-dd
-      return new Date(${parts[2]}-${parts[1]}-${parts[0]});
+      return new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
     }
     return new Date(dateStr); // fallback para ISO
   };
@@ -275,7 +275,7 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
       };
 
       const response = await fetch(
-        https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id},
+        `https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id}`,
         {
           method: 'PUT',
           headers: {
@@ -326,7 +326,7 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
 
   const deleteEdital = async (id: string) => {
     try {
-      const response = await fetch(https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id}, {
+      const response = await fetch(`https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id}`, {
         method: 'DELETE',
       });
 

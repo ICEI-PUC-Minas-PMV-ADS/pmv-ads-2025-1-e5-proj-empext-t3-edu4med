@@ -41,12 +41,32 @@ export const fetchVestibular = async (vestibularId: string): Promise<Vestibular>
   }
 };
  
-// (Opcional) Criar um vestibular - exemplo de método POST
-export const createVestibular = async (vestibular: Omit<Vestibular, "id">): Promise<Vestibular> => {
+// POST: Cria um novo edital
+export const createVestibular = async (vestibular: Vestibular) => {
   try {
-    const response = await api.post("/", vestibular);
+    const response = await axios.post(URL_DA_API, vestibular);
     return response.data;
   } catch (error) {
-    throw new Error("Failed to create vestibular");
+    throw new Error(`Erro ao criar vestibular: ${error}`);
+  }
+};
+
+// PUT: Atualiza um edital existente
+export const updateVestibular = async (id: number, vestibular: Vestibular) => {
+  try {
+    const response = await axios.put(`${URL_DA_API}/api/Vestibular/${id}`, vestibular);
+    return response.data;
+  } catch (error) {
+    throw new Error(`Erro ao atualizar vestibular: ${error}`);
+  }
+};
+
+// DELETE: Remove um edital
+export const deleteVestibular = async (id: number) => {
+  try {
+    const response = await axios.delete(`${URL_DA_API}/api/Vestibular/${id}`);
+    return response.data;
+  } catch (error) {
+    throw new Error(`Erro ao deletar vestibular: ${error}`);
   }
 };

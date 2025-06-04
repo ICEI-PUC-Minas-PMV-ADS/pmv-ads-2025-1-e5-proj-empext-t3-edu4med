@@ -44,8 +44,11 @@ export default function AdminDashboard() {
     getRegisteredEditaisCount
   } = useEditais();
 
-  const { users = [] } = useAuth();
+  //const { users = [] } = useAuth();
+  const [users, setUsers] = useState([]);
+  const [totalUsers, setTotalUsers] = useState(0);
 
+  //
   const [isEditing, setIsEditing] = useState(false);
   const [selectedEdital, setSelectedEdital] = useState<any>(null);
   const [showForm, setShowForm] = useState(false);
@@ -298,6 +301,32 @@ export default function AdminDashboard() {
   React.useEffect(() => {
     setUserPage(1);
   }, [filters.users, userPageSize]);
+  console.log(users);
+  // Buscar usuários do back-end dinamicamente com filtros e paginação
+  React.useEffect(() => {
+    const fetchUsers = async () => {
+      try {
+        const query = new URLSearchParams();
+        if (filters.users.name) query.append('nome', filters.users.name);
+        if (filters.users.location) query.append('regiao', filters.users.location);
+        query.append('page', userPage.toString());
+        query.append('pageSize', userPageSize.toString());
+
+        const res = await fetch(`https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Usuario`);
+        const data = await res.json();
+
+        // Ajuste aqui
+        setUsers(data || []);
+        setTotalUsers(data.length || 0);
+      } catch (err) {
+        console.error('Erro ao buscar usuários:', err);
+        setUsers([]);
+        setTotalUsers(0);
+      }
+    };
+
+    fetchUsers();
+  }, [filters.users, userPage, userPageSize]);
 
   // Componente de paginação
   const Pagination = ({
@@ -645,9 +674,29 @@ export default function AdminDashboard() {
             <FilterButton
               title="Filtrar Usuários"
               filters={filters.users}
-              onFilterChange={(newFilters) => setFilters({ ...filters, users: newFilters })}
-              onClearFilters={() => setFilters({ ...filters, users: { name: '', location: '', registeredEditais: '', timeUsed: '' } })}
-              filterOptions={userFilterOptions}
+              onFilterChange={(newFilters) =>
+                setFilters({ ...filters, users: { ...filters.users, name: newFilters.name } })
+              }
+              onClearFilters={() =>
+                setFilters({
+                  ...filters,
+                  users: { name: '', registeredEditais: '', location: '', timeUsed: '' }
+                })
+              }
+              filterOptions={[
+                {
+                  name: 'name',
+                  label: 'Nome',
+                  type: 'text' as const,
+                  placeholder: 'Filtrar por nome'
+                },
+                {
+                  name: 'registeredEditais',
+                  label: 'Editais Inscritos',
+                  type: 'number' as const,
+                  placeholder: 'Quantidade'
+                }
+              ]}
             />
           </div>
           <div className="overflow-x-auto">
@@ -655,39 +704,22 @@ export default function AdminDashboard() {
               <thead>
                 <tr className="border-b">
                   <th className="text-left py-3">Nome</th>
-                  <th className="text-left py-3">Localização</th>
-                  <th className="text-left py-3">Tempo de Uso</th>
+                  <th className="text-left py-3">Email</th>
                   <th className="text-left py-3">Editais Inscritos</th>
                 </tr>
               </thead>
               <tbody>
                 {paginatedUsers.length > 0 ? (
-                  paginatedUsers.map((user) => (
-                    <tr key={user.id} className="border-b">
-                      <td className="py-3">{user.name}</td>
-                      <td className="py-3">
-                        {user.location ? (
-                          <div className="flex items-center gap-1">
-                            <MapPin className="w-4 h-4" />
-                            {user.location}
-                          </div>
-                        ) : (
-                          'Não definido'
-                        )}
-                      </td>
-                      <td className="py-3">
-                        {Math.floor(
-                          (new Date().getTime() - new Date(user.createdAt).getTime()) /
-                          (1000 * 60 * 60 * 24)
-                        )}{' '}
-                        dias
-                      </td>
-                      <td className="py-3">{getRegisteredEditaisCount(user.id)}</td>
+                  users.map((users) => (
+                    <tr key={users.id} className="border-b">
+                      <td className="py-3">{users.nome}</td>
+                      <td className="py-3">{users.email}</td>
+                      <td className="py-3">{getRegisteredEditaisCount(users.id)}</td>
                     </tr>
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={4} className="py-4 text-center text-gray-500">
+                    <td colSpan={3} className="py-4 text-center text-gray-500">
                       Nenhum usuário encontrado
                     </td>
                   </tr>

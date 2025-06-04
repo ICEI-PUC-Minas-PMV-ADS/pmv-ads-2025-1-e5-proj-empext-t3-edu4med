@@ -56,7 +56,7 @@ export default function Editais() {
         filterOptions={filterOptions}
       />
 
-      {/<EditalSection title="Para você" editais={paraVoce} />/}
+      {/*<EditalSection title="Para você" editais={paraVoce} />*/}
       <EditalSection title="Tempo se esgotando" editais={tempoEsgotando} />
       <EditalSection title="Todos Editais" editais={filteredEditais} />
     </main>
