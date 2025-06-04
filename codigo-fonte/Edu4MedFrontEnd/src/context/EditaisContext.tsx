@@ -69,7 +69,7 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
         const parts = dateString.split('/');
         if (parts.length === 3) {
           // Assume formato mm/dd/yyyy
-          date = new Date(${parts[2]}-${parts[0]}-${parts[1]});
+          date = new Date(`${parts[2]}-${parts[0]}-${parts[1]}`);
         }
       }
 
@@ -89,6 +89,18 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
       return dateString;
     }
   };
+
+  //Função para corrigir o TimeZone
+  function fixTimezoneDate(dateStr: string): string {
+    const [day, month, year] = dateStr.split('/').map(Number);
+
+    const date = new Date(Date.UTC(year, month - 1, day));
+    const adjustedDay = String(date.getUTCDate() + 1).padStart(2, '0');
+    const adjustedMonth = String(date.getUTCMonth() + 1).padStart(2, '0');
+    const adjustedYear = date.getUTCFullYear();
+
+    return `${adjustedDay}/${adjustedMonth}/${adjustedYear}`;
+  }
 
   // Função para retornar uma imagem aleatória
   const getImageForEdital = (): string => {
@@ -170,8 +182,8 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
   const parseDate = (dateStr: string): Date => {
     const parts = dateStr.split('/');
     if (parts.length === 3) {
-      // dd/mm/yyyy → yyyy-mm-dd
-      return new Date(${parts[2]}-${parts[1]}-${parts[0]});
+      // yyyy-mm-dd → dd/mm/yyyy 2 1 0
+      return new Date(`${parts[2]}-${parts[1]}-${parts[0]}`);
     }
     return new Date(dateStr); // fallback para ISO
   };
@@ -220,7 +232,7 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
       const editalPayload = {
         universidade: edital.title,
         instituicao: edital.institution,
-        fim_cadastro: edital.closingDate, // já deve estar no formato dd/MM/yyyy
+        fim_cadastro: edital.closingDate ? fixTimezoneDate(edital.closingDate) : '', // já deve estar no formato dd/MM/yyyy
         regiao: edital.location,
         ativo: edital.status === 'open',
         link: edital.externalLink || '',
@@ -266,16 +278,16 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
       const editalPayload = {
         universidade: editalUpdate.title,
         instituicao: editalUpdate.institution,
-        fim_cadastro: editalUpdate.closingDate, // formato dd/MM/yyyy
+        fim_cadastro: editalUpdate.closingDate ? fixTimezoneDate(editalUpdate.closingDate) : '',
         regiao: editalUpdate.location,
         ativo: editalUpdate.status === 'open',
         link: editalUpdate.externalLink || '',
-        link_inscricoes: '', // ajuste se necessário
-        vagas: '', // ajuste se necessário
+        link_inscricoes: '',
+        vagas: '',
       };
 
       const response = await fetch(
-        https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id},
+        `https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id}`,
         {
           method: 'PUT',
           headers: {
@@ -289,33 +301,29 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
         throw new Error('Erro ao atualizar edital');
       }
 
-      // Verifica se a resposta tem conteúdo
-      let updated = null;
+      let updated: any = null;
       const text = await response.text();
       if (text) {
         updated = JSON.parse(text);
       }
 
-      // Se veio resposta, atualiza localmente
-      if (updated) {
-        setEditais(prev =>
-          prev.map(edital =>
-            edital.id === id
-              ? {
-                ...edital,
-                id: updated.id.toString(),
-                title: updated.universidade,
-                institution: updated.instituicao,
-                closingDate: formatDate(updated.fim_cadastro),
-                location: updated.regiao,
-                status: updated.ativo ? 'open' : 'closed',
-                externalLink: updated.link,
-                imageUrl: edital.imageUrl || getImageForEdital(),
-              }
-              : edital
-          )
-        );
-      }
+      setEditais(prev =>
+        prev.map(edital =>
+          edital.id === id
+            ? {
+              ...edital,
+              id,
+              title: updated?.universidade ?? editalUpdate.title ?? edital.title,
+              institution: updated?.instituicao ?? editalUpdate.institution ?? edital.institution,
+              closingDate: fixTimezoneDate(updated?.fim_cadastro ?? editalUpdate.closingDate ?? edital.closingDate),
+              location: updated?.regiao ?? editalUpdate.location ?? edital.location,
+              status: (updated?.ativo ?? editalUpdate.status === 'open') ? 'open' : 'closed',
+              externalLink: updated?.link ?? editalUpdate.externalLink ?? edital.externalLink,
+              imageUrl: edital.imageUrl || getImageForEdital(),
+            }
+            : edital
+        )
+      );
 
       toast.success('Edital atualizado com sucesso!');
     } catch (error) {
@@ -326,7 +334,7 @@ export function EditaisProvider({ children }: { children: ReactNode }) {
 
   const deleteEdital = async (id: string) => {
     try {
-      const response = await fetch(https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id}, {
+      const response = await fetch(`https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Vestibular/${id}`, {
         method: 'DELETE',
       });
 
