@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Edu4MedBackEnd.props" />
+</Project>
