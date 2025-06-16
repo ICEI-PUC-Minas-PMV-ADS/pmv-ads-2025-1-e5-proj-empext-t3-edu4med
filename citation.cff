@@ -1,29 +1,27 @@
 message: Please cite this software using these metadata.
-title:
+title: Edu4Med - Plataforma Automatizada para busca de oportunidades na Medicina.
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Moreira Euphrásio
+    given-names: Caê
+  - family-names: Amâncio da Silva  
+    given-names: Diogo
+  - family-names: Gonçalves Sena
+    given-names: Eduardo
+  - family-names: Correia de Sá e Silva
+    given-names: Leonardo
+  - family-names: Felipe Sena Costa
+    given-names: Luiz
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Wilson da Costa
+    given-names: José
 keywords:
-  - 
-  - 
-repository-code: 
+  - Estudantes 
+  - Medicina
+  - Editais
+  - Vestibulares de Medicina
+  - Plataforma automatizada
+  - Web Scraping
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e5-proj-empext-t3-edu4med
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2025-06-16
