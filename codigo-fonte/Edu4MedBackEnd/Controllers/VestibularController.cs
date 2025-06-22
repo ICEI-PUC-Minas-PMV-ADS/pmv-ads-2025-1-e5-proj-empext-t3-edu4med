@@ -30,14 +30,14 @@ namespace Edu4MedBackEnd.Controllers
             return Ok(vestibular);
         }
 
-        [Authorize(Roles = "admin")]
+     //   [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<ActionResult<Vestibular>> Create([FromBody] Vestibular vestibular)
         {
             var novoVestibular = await _vestibularService.CreateAsync(vestibular);
             return CreatedAtAction(nameof(GetById), new { id = novoVestibular.Id }, novoVestibular);
         }
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Vestibular vestibular)
         {
@@ -45,7 +45,7 @@ namespace Edu4MedBackEnd.Controllers
             if (!atualizado) return NotFound();
             return NoContent();
         }
-        [Authorize(Roles = "admin")]
+       // [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
