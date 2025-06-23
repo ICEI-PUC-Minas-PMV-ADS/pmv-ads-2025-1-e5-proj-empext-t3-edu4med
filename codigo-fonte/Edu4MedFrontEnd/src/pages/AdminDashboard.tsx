@@ -44,11 +44,9 @@ export default function AdminDashboard() {
     getRegisteredEditaisCount
   } = useEditais();
 
-  //const { users = [] } = useAuth();
   const [users, setUsers] = useState([]);
   const [totalUsers, setTotalUsers] = useState(0);
 
-  //
   const [isEditing, setIsEditing] = useState(false);
   const [selectedEdital, setSelectedEdital] = useState<any>(null);
   const [showForm, setShowForm] = useState(false);
@@ -302,6 +300,7 @@ export default function AdminDashboard() {
     setUserPage(1);
   }, [filters.users, userPageSize]);
   console.log(users);
+
   // Buscar usuários do back-end dinamicamente com filtros e paginação
   React.useEffect(() => {
     const fetchUsers = async () => {
@@ -312,7 +311,7 @@ export default function AdminDashboard() {
         query.append('page', userPage.toString());
         query.append('pageSize', userPageSize.toString());
 
-        const res = await fetch(`https://webapiedu4med-b4h3hafmfcekhce9.brazilsouth-01.azurewebsites.net/api/Usuario`);
+        const res = await fetch(`https://edu4med-ehf7ehhzcrgybmcz.brazilsouth-01.azurewebsites.net/api/Usuario`);
         const data = await res.json();
 
         // Ajuste aqui
@@ -517,7 +516,7 @@ export default function AdminDashboard() {
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
-                  Estado
+                  Região
                 </label>
                 <select
                   value={formData.location}
@@ -711,18 +710,18 @@ export default function AdminDashboard() {
               <tbody>
                 {paginatedUsers.length > 0 ? (
                   users.map((users) => (
-                    <tr key={users.id} className="border-b">
-                      <td className="py-3">{users.nome}</td>
-                      <td className="py-3">{users.email}</td>
-                      <td className="py-3">{getRegisteredEditaisCount(users.id)}</td>
-                    </tr>
-                  ))
+                <tr key={users.id} className="border-b">
+                  <td className="py-3">{users.nome}</td>
+                  <td className="py-3">{users.email}</td>
+                  <td className="py-3">{getRegisteredEditaisCount(users.id)}</td>
+                </tr>
+                ))
                 ) : (
-                  <tr>
-                    <td colSpan={3} className="py-4 text-center text-gray-500">
-                      Nenhum usuário encontrado
-                    </td>
-                  </tr>
+                <tr>
+                  <td colSpan={3} className="py-4 text-center text-gray-500">
+                    Nenhum usuário encontrado
+                  </td>
+                </tr>
                 )}
               </tbody>
             </table>
