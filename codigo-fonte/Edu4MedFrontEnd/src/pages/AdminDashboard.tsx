@@ -13,7 +13,9 @@ import {
   ChevronLeft,
   ChevronRight,
   ChevronsLeft,
-  ChevronsRight
+  ChevronsRight,
+  ChevronUp,
+  ChevronDown
 } from 'lucide-react';
 import FilterButton from '../components/FilterButton';
 import { ESTADOS_BRASIL } from '../components/constants';
@@ -29,7 +31,7 @@ interface TableFilters {
   };
   users: {
     name: string;
-    location: string;
+    email: string;
     registeredEditais: string;
     timeUsed: string;
   };
@@ -59,6 +61,10 @@ export default function AdminDashboard() {
   const [editalPageSize, setEditalPageSize] = useState(10);
   const [userPageSize, setUserPageSize] = useState(10);
 
+  // Configurações de ordenação para usuários
+  const [userSortField, setUserSortField] = useState<'registeredEditais' | null>(null);
+  const [userSortDirection, setUserSortDirection] = useState<'asc' | 'desc'>('asc');
+
   const [filters, setFilters] = useState<TableFilters>({
     editais: {
       institution: '',
@@ -68,7 +74,7 @@ export default function AdminDashboard() {
     },
     users: {
       name: '',
-      location: '',
+      email: '',
       registeredEditais: '',
       timeUsed: ''
     }
@@ -122,11 +128,10 @@ export default function AdminDashboard() {
       placeholder: 'Filtrar por nome'
     },
     {
-      name: 'location',
-      label: 'Estado',
-      type: 'select' as const,
-      options: ESTADOS_BRASIL,
-      placeholder: 'Selecione o estado'
+      name: 'email',
+      label: 'Email',
+      type: 'text' as const,
+      placeholder: 'Filtrar por email'
     },
     {
       name: 'registeredEditais',
@@ -152,7 +157,7 @@ export default function AdminDashboard() {
       },
       users: {
         name: '',
-        location: '',
+        email: '',
         registeredEditais: '',
         timeUsed: ''
       }
@@ -248,21 +253,50 @@ export default function AdminDashboard() {
     return dateA.getTime() - dateB.getTime();
   });
 
+  // Função para lidar com ordenação de usuários
+  const handleUserSort = (field: 'registeredEditais') => {
+    if (userSortField === field) {
+      setUserSortDirection(userSortDirection === 'asc' ? 'desc' : 'asc');
+    } else {
+      setUserSortField(field);
+      setUserSortDirection('asc');
+    }
+    setUserPage(1); // Voltar para primeira página ao ordenar
+  };
+
+  // Função para limpar ordenação de usuários
+  const clearUserSort = () => {
+    setUserSortField(null);
+    setUserSortDirection('asc');
+    setUserPage(1);
+  };
+
   const filteredUsers = Array.isArray(users)
     ? users.filter(user => {
-      const { name, location, registeredEditais, timeUsed } = filters.users;
+      const { name, email, registeredEditais, timeUsed } = filters.users;
       const userRegisteredEditais = getRegisteredEditaisCount(user.id);
-      const userTimeUsed = Math.floor(
-        (Date.now() - new Date(user.createdAt).getTime()) / (1000 * 60 * 60 * 24)
-      );
+      // Como não temos createdAt, vamos remover o filtro de tempo por enquanto
       return (
-        (!name || user.name.toLowerCase().includes(name.toLowerCase())) &&
-        (!location || user.location === location) &&
-        (!registeredEditais || userRegisteredEditais.toString() === registeredEditais) &&
-        (!timeUsed || userTimeUsed.toString() === timeUsed)
+        (!name || user.nome.toLowerCase().includes(name.toLowerCase())) &&
+        (!email || user.email.toLowerCase().includes(email.toLowerCase())) &&
+        (!registeredEditais || userRegisteredEditais.toString() === registeredEditais)
       );
     })
     : [];
+
+  // Aplicar ordenação aos usuários filtrados
+  const sortedUsers = userSortField 
+    ? [...filteredUsers].sort((a, b) => {
+        const aValue = getRegisteredEditaisCount(a.id);
+        const bValue = getRegisteredEditaisCount(b.id);
+        
+        if (userSortDirection === 'asc') {
+          return aValue - bValue;
+        } else {
+          return bValue - aValue;
+        }
+      })
+    : filteredUsers;
 
   // Paginação
   const paginatedEditais = sortedEditais.slice(
@@ -270,13 +304,13 @@ export default function AdminDashboard() {
     editalPage * editalPageSize
   );
 
-  const paginatedUsers = sortedEditais.slice(
+  const paginatedUsers = sortedUsers.slice(
     (userPage - 1) * userPageSize,
     userPage * userPageSize
   );
 
   const totalEditalPages = Math.ceil(sortedEditais.length / editalPageSize);
-  const totalUserPages = Math.ceil(sortedEditais.length / userPageSize);
+  const totalUserPages = Math.ceil(sortedUsers.length / userPageSize);
 
   function formatDate(dateStr: string): string {
     if (!dateStr) return 'Data não informada';
@@ -301,20 +335,14 @@ export default function AdminDashboard() {
   }, [filters.users, userPageSize]);
   console.log(users);
 
-  // Buscar usuários do back-end dinamicamente com filtros e paginação
+  // Buscar usuários do back-end dinamicamente
   React.useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const query = new URLSearchParams();
-        if (filters.users.name) query.append('nome', filters.users.name);
-        if (filters.users.location) query.append('regiao', filters.users.location);
-        query.append('page', userPage.toString());
-        query.append('pageSize', userPageSize.toString());
-
         const res = await fetch(`https://edu4med-ehf7ehhzcrgybmcz.brazilsouth-01.azurewebsites.net/api/Usuario`);
         const data = await res.json();
 
-        // Ajuste aqui
+        // Definir todos os usuários - a paginação será feita no frontend
         setUsers(data || []);
         setTotalUsers(data.length || 0);
       } catch (err) {
@@ -325,10 +353,10 @@ export default function AdminDashboard() {
     };
 
     fetchUsers();
-  }, [filters.users, userPage, userPageSize]);
+  }, []); // Buscar apenas uma vez quando o componente monta
 
-  // Componente de paginação
-  const Pagination = ({
+  // Componente de paginação para Editais
+  const EditalPagination = ({
     currentPage,
     totalPages,
     onPageChange,
@@ -356,7 +384,85 @@ export default function AdminDashboard() {
               <option value="20">20</option>
               <option value="50">50</option>
             </select>
-            por página
+            editais por página
+          </span>
+        </div>
+        <div className="flex items-center space-x-2">
+          <button
+            onClick={() => onPageChange(1)}
+            disabled={currentPage === 1}
+            className={`p-1 rounded ${currentPage === 1 ? 'text-gray-400 cursor-not-allowed' : 'text-blue-600 hover:bg-blue-100'
+              }`}
+          >
+            <ChevronsLeft className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => onPageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+            className={`p-1 rounded ${currentPage === 1 ? 'text-gray-400 cursor-not-allowed' : 'text-blue-600 hover:bg-blue-100'
+              }`}
+          >
+            <ChevronLeft className="w-5 h-5" />
+          </button>
+          <span className="text-sm">
+            Página <span className="font-medium">{currentPage}</span> de{" "}
+            <span className="font-medium">{totalPages}</span>
+          </span>
+          <button
+            onClick={() => onPageChange(currentPage + 1)}
+            disabled={currentPage === totalPages || totalPages === 0}
+            className={`p-1 rounded ${currentPage === totalPages || totalPages === 0
+              ? 'text-gray-400 cursor-not-allowed'
+              : 'text-blue-600 hover:bg-blue-100'
+              }`}
+          >
+            <ChevronRight className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => onPageChange(totalPages)}
+            disabled={currentPage === totalPages || totalPages === 0}
+            className={`p-1 rounded ${currentPage === totalPages || totalPages === 0
+              ? 'text-gray-400 cursor-not-allowed'
+              : 'text-blue-600 hover:bg-blue-100'
+              }`}
+          >
+            <ChevronsRight className="w-5 h-5" />
+          </button>
+        </div>
+      </div>
+    );
+  };
+
+  // Componente de paginação para Usuários
+  const UserPagination = ({
+    currentPage,
+    totalPages,
+    onPageChange,
+    pageSize,
+    onPageSizeChange
+  }: {
+    currentPage: number;
+    totalPages: number;
+    onPageChange: (page: number) => void;
+    pageSize: number;
+    onPageSizeChange: (size: number) => void;
+  }) => {
+    return (
+      <div className="flex items-center justify-between mt-4">
+        <div className="flex items-center">
+          <span className="text-sm text-gray-700">
+            Mostrar
+            <select
+              value={pageSize}
+              onChange={(e) => onPageSizeChange(Number(e.target.value))}
+              className="mx-2 p-1 border rounded"
+            >
+              <option value="5">5</option>
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="50">50</option>
+            </select>
+            usuários por página
           </span>
         </div>
         <div className="flex items-center space-x-2">
@@ -656,7 +762,7 @@ export default function AdminDashboard() {
             </table>
           </div>
           {filteredEditais.length > 0 && (
-            <Pagination
+            <EditalPagination
               currentPage={editalPage}
               totalPages={totalEditalPages}
               onPageChange={setEditalPage}
@@ -674,28 +780,15 @@ export default function AdminDashboard() {
               title="Filtrar Usuários"
               filters={filters.users}
               onFilterChange={(newFilters) =>
-                setFilters({ ...filters, users: { ...filters.users, name: newFilters.name } })
+                setFilters({ ...filters, users: newFilters })
               }
               onClearFilters={() =>
                 setFilters({
                   ...filters,
-                  users: { name: '', registeredEditais: '', location: '', timeUsed: '' }
+                  users: { name: '', email: '', registeredEditais: '', timeUsed: '' }
                 })
               }
-              filterOptions={[
-                {
-                  name: 'name',
-                  label: 'Nome',
-                  type: 'text' as const,
-                  placeholder: 'Filtrar por nome'
-                },
-                {
-                  name: 'registeredEditais',
-                  label: 'Editais Inscritos',
-                  type: 'number' as const,
-                  placeholder: 'Quantidade'
-                }
-              ]}
+              filterOptions={userFilterOptions.filter(option => option.name !== 'timeUsed')}
             />
           </div>
           <div className="overflow-x-auto">
@@ -704,16 +797,53 @@ export default function AdminDashboard() {
                 <tr className="border-b">
                   <th className="text-left py-3">Nome</th>
                   <th className="text-left py-3">Email</th>
-                  <th className="text-left py-3">Editais Inscritos</th>
+                  <th className="text-left py-3">
+                    <div className="flex items-center gap-3">
+                      <span className="font-medium">Editais Inscritos</span>
+                      <div className="flex items-center gap-2">
+                        <button
+                          onClick={() => handleUserSort('registeredEditais')}
+                          className="flex items-center gap-1 hover:bg-gray-100 px-2 py-1 rounded-md transition-colors"
+                          title="Ordenar por quantidade de editais"
+                        >
+                          <div className="flex flex-col">
+                            <ChevronUp 
+                              className={`w-4 h-4 ${
+                                userSortField === 'registeredEditais' && userSortDirection === 'asc' 
+                                  ? 'text-blue-600' 
+                                  : 'text-gray-400'
+                              }`} 
+                            />
+                            <ChevronDown 
+                              className={`w-4 h-4 ${
+                                userSortField === 'registeredEditais' && userSortDirection === 'desc' 
+                                  ? 'text-blue-600' 
+                                  : 'text-gray-400'
+                              }`} 
+                            />
+                          </div>
+                        </button>
+                        {userSortField && (
+                          <button
+                            onClick={clearUserSort}
+                            className="text-xs text-gray-500 hover:text-gray-700 hover:bg-gray-100 px-2 py-1 rounded transition-colors"
+                            title="Limpar ordenação"
+                          >
+                            Limpar
+                          </button>
+                        )}
+                      </div>
+                    </div>
+                  </th>
                 </tr>
               </thead>
               <tbody>
                 {paginatedUsers.length > 0 ? (
-                  users.map((users) => (
-                <tr key={users.id} className="border-b">
-                  <td className="py-3">{users.nome}</td>
-                  <td className="py-3">{users.email}</td>
-                  <td className="py-3">{getRegisteredEditaisCount(users.id)}</td>
+                  paginatedUsers.map((user) => (
+                <tr key={user.id} className="border-b">
+                  <td className="py-3">{user.nome}</td>
+                  <td className="py-3">{user.email}</td>
+                  <td className="py-3">{getRegisteredEditaisCount(user.id)}</td>
                 </tr>
                 ))
                 ) : (
@@ -726,8 +856,8 @@ export default function AdminDashboard() {
               </tbody>
             </table>
           </div>
-          {filteredUsers.length > 0 && (
-            <Pagination
+          {sortedUsers.length > 0 && (
+            <UserPagination
               currentPage={userPage}
               totalPages={totalUserPages}
               onPageChange={setUserPage}
